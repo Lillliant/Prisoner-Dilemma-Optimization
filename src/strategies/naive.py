@@ -1,8 +1,5 @@
 import random
-
-# global variables used like macros
-COOPERATE = 0
-DEFECT = 1
+from util.type import COOPERATE, DEFECT
 
 # TODO: modify the code such that 0 and 1 are returned with a given probability distribution
 def random():
