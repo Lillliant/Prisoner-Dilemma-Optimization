@@ -1,12 +1,12 @@
 import random
-from util.type import COOPERATE, DEFECT
+from config import COOPERATE, DEFECT
 
 # TODO: modify the code such that 0 and 1 are returned with a given probability distribution
-def random():
+def RAND(mem: list[int]):
     return random.randint(min(COOPERATE, DEFECT), max(COOPERATE, DEFECT))
 
-def always_cooperate():
+def ALLC(mem: list[int]):
     return COOPERATE
 
-def always_defect():
+def ALLD(mem: list[int]):
     return DEFECT

@@ -1,6 +1,6 @@
 # TFT, TF2T, STFT
 # TODO: Take a look at the other Axelrod tournament strategies and whether they should be implemented in this module
-from util.type import COOPERATE, DEFECT
+from config import COOPERATE, DEFECT
 
 def TFT(mem: list[int]):
     if (len(mem) == 0):

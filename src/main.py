@@ -1,3 +1,8 @@
-from strategies.classic import *
+from util.player import *
 
-print(TF2T([1, 1, 1]))
+m1, m2, s1, s2 = play_match('tft', 'allc')
+
+print(str(m1))
+print(str(m2))
+print(s1)
+print(s2)
