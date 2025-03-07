@@ -6,10 +6,15 @@ class Player:
     def __init__(self, type: str, encoded_strategy: list[int] = []):
         # initialize variables
         self.type = type
-        self.mem: list[int] = [] # memory of play history used when playing against other strategies
-        self.history: list[int] = [] # total play history for review purposes
+        self.mem: list[int] = [] # memory of play history
         self.encoded_strategy = encoded_strategy # if the player is based on an encoded strategy
         self.score: int = 0
+
+        # additional fields based on type
+        if (type == 'GTFT'):
+            self.punishment_count = 0
+            self.reward_count = 0
+            self.num_betrayals = 0
 
     def get_mem_string(self):
         return "".join(map(str, self.mem))
@@ -25,9 +30,6 @@ class Player:
 
     def add_memory(self, move: int):
         self.mem.append(move)
-        if len(self.mem) > MEMORY_DEPTH:
-            self.mem.pop(0)
-        self.history.append(move)
 
     def reset(self):
         self.score = 0
@@ -54,6 +56,11 @@ class Player:
                 return strategies.TF2T(self.mem)
             case 'STFT':
                 return strategies.STFT(self.mem)
+            case 'GTFT':
+                move, punishment_count, reward_count = strategies.GTFT(self, opponent_mem, self.punishment_count, self.reward_count)
+                self.punishment_count = punishment_count
+                self.reward_count = reward_count
+                return move
             case _:
                 raise NotImplementedError
     
