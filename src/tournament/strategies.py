@@ -1,6 +1,6 @@
 import random
 from config import COOPERATE, DEFECT, MEMORY_DEPTH
-from util.util import mem_to_idx
+from tournament.util import mem_to_idx
 
 # naive strategies: RAND, ALLC, ALLD
 def RAND():

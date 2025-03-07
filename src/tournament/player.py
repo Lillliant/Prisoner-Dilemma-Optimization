@@ -6,7 +6,8 @@ class Player:
     def __init__(self, type: str, encoded_strategy: list[int] = []):
         # initialize variables
         self.type = type
-        self.mem: list[int] = [] # memory of play history
+        self.mem: list[int] = [] # memory of play history used when playing against other strategies
+        self.history: list[int] = [] # total play history for review purposes
         self.encoded_strategy = encoded_strategy # if the player is based on an encoded strategy
         self.score: int = 0
 
@@ -24,6 +25,9 @@ class Player:
 
     def add_memory(self, move: int):
         self.mem.append(move)
+        if len(self.mem) > MEMORY_DEPTH:
+            self.mem.pop(0)
+        self.history.append(move)
 
     def reset(self):
         self.score = 0

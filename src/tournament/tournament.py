@@ -1,5 +1,5 @@
 from config import *
-from strategies.player import Player
+from tournament.player import Player
 
 # returns a tuple of the score of the two players
 # in the form (p1_score, p2_score)

@@ -24,3 +24,4 @@ ITERATION = 1000
 ROUNDS = 3 # for tournament scoring
 
 # parameters for tabu search
+TABU_SIZE = 5

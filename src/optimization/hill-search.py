@@ -1,8 +1,8 @@
 # How to structure prisoner's dilemma as a search problem?
 from config import *
-from util.util import generate_random_strategy
-from strategies.player import Player
-from util.tournament import tournament
+from tournament.util import generate_random_strategy
+from tournament.player import Player
+from tournament.tournament import tournament
 
 # return a list of neighbours of the current strategy.
 # neighbours are defined to be strategies encodings 
