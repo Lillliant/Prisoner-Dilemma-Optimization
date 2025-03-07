@@ -76,6 +76,40 @@ def GTFT(player_mem: list[int], opponent_mem: list[int], punishment_count: int, 
             return DEFECT, opponent_mem.count(DEFECT) - 1, 2
         return COOPERATE, 0, 0
 
+# from stanford website of IPD strategies
+# uses a modified variant of ZD strategy: initial step is to cooperate, then use ZD strategies
+'''
+EXT-ZD is Extort-2
+Based on past outcome CC, CD, DC, DD, the strategy will cooperating with probability 7/8, 7/16, 3/8, 0 respectively.
+'''
+def EXT_ZD(player_mem: list[int], opponent_mem: list[int]):
+    if (len(player_mem) == 0):
+        return COOPERATE
+    if (player_mem[-1] == COOPERATE and opponent_mem[-1] == COOPERATE):
+        return random.choices([COOPERATE, DEFECT], weights=[0.875, 0.125])
+    elif (player_mem[-1] == COOPERATE and opponent_mem[-1] == DEFECT):
+        return random.choices([COOPERATE, DEFECT], weights=[0.4375, 0.5625])
+    elif (player_mem[-1] == DEFECT and opponent_mem[-1] == COOPERATE):
+        return random.choices([COOPERATE, DEFECT], weights=[0.375, 0.625])
+    else:
+        return DEFECT
+
+'''
+GEN-ZD is Generous-2
+Based on past outcome CC, CD, DC, DD, the strategy will cooperating with probability 1, 9/16, 1/2, 1/8 respectively.
+'''
+def GEN_ZD(player_mem: list[int], opponent_mem: list[int]):
+    if (len(player_mem) == 0):
+        return COOPERATE
+    if (player_mem[-1] == COOPERATE and opponent_mem[-1] == COOPERATE):
+        return random.choices([COOPERATE, DEFECT], weights=[0.5625, 0.4375])
+    elif (player_mem[-1] == COOPERATE and opponent_mem[-1] == DEFECT):
+        return random.choices([COOPERATE, DEFECT], weights=[0.5, 0.5])
+    elif (player_mem[-1] == DEFECT and opponent_mem[-1] == COOPERATE):
+        return random.choices([COOPERATE, DEFECT], weights=[0.125, 0.875])
+    else:
+        return DEFECT
+
 # encoded strategy
 def ENCODED(encoded_strategy: list[int], player_mem: list[int], opponent_mem: list[int]):
     move_idx = mem_to_idx(player_mem[-MEMORY_DEPTH], opponent_mem[-MEMORY_DEPTH])
