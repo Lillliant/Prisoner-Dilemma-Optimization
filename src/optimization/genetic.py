@@ -1,93 +1,132 @@
-import numpy as np
-import random
+#Optimized Genetic Algorithm
 
-# Define Prisoner's Dilemma Payoff Matrix
-PAYOFF_MATRIX = {
-    ('C', 'C'): (3, 3),  # Reward for mutual cooperation
-    ('C', 'D'): (0, 5),  # Sucker's payoff and temptation to defect
-    ('D', 'C'): (5, 0),  # Temptation and sucker's payoff (swapped)
-    ('D', 'D'): (1, 1)   # Punishment for mutual defection
+import random
+import numpy as np
+# Define the Prisoner's Dilemma payoff matrix
+PAYOFFS = {
+    ('C', 'C'): (3, 3),  # Both cooperate: 3 points each
+    ('C', 'D'): (0, 5),  # I cooperate, they defect: 0 for me, 5 for them
+    ('D', 'C'): (5, 0),  # I defect, they cooperate: 5 for me, 0 for them
+    ('D', 'D'): (1, 1)   # Both defect: 1 point each
 }
 
-# Encode strategies as binary strings ('C' -> 0, 'D' -> 1)
-def binary_to_strategy(binary_str):
-    """ Convert binary string to strategy sequence ('C' or 'D') """
-    return ['C' if bit == '0' else 'D' for bit in binary_str]
+# Turn a binary string into moves (C or D)
+def decode_strategy(binary):
+    """ 
+    Change a string like '010' into moves ['C', 'D', 'C']
+    '0' is Cooperate (C), '1' is Defect (D)
+    """
+    return ['C' if bit == '0' else 'D' for bit in binary]
 
-# Generate initial random strategy
-def generate_random_strategy(length=6):
-    """ Create a random strategy with given length """
+# Make a random starting strategy
+def make_random_strategy(length=5):
+    """ 
+    Create a random strategy like '01011'
+    Each spot is randomly '0' or '1'
+    """
     return ''.join(random.choice('01') for _ in range(length))
 
-# Evaluate a strategy by playing against a fixed opponent
-def evaluate_strategy(strategy, opponent_strategy, rounds=10):
-    """ Simulate a game and compute total score """
-    strategy_moves = binary_to_strategy(strategy)
-    opponent_moves = binary_to_strategy(opponent_strategy)
+# Calculate my score against the opponent
+def get_score(my_strategy, opponent_strategy, rounds=10):
+    """ 
+    Play my strategy vs the opponent for 10 rounds and get my score
+    Repeats the strategy if it’s shorter than 10 rounds
+    """
+    my_moves = decode_strategy(my_strategy)
+    opp_moves = decode_strategy(opponent_strategy)
+    my_score = 0
     
-    score = 0
     for i in range(rounds):
-        my_move = strategy_moves[i % len(strategy_moves)]
-        opp_move = opponent_moves[i % len(opponent_moves)]
-        score += PAYOFF_MATRIX[(my_move, opp_move)][0]  # Player 1's score
-    return score
+        my_move = my_moves[i % len(my_moves)]  # Loop my moves
+        opp_move = opp_moves[i % len(opp_moves)]  # Loop opponent’s moves
+        my_score += PAYOFFS[(my_move, opp_move)][0]  # Add my points
+    return my_score
 
-# Genetic Algorithm
-def genetic_algorithm(initial_strategy, opponent_strategy, max_iterations=20, population_size=5):
-    """ Perform Genetic Algorithm to find an optimal strategy """
-    strategy_length = len(initial_strategy)
+# Mix two strategies to create a new one
+def mix_strategies(parent1, parent2):
+    """ 
+    Combine two strategies at a random point
+    Like '010' and '111' might make '011' if split at 2
+    """
+    split = random.randint(1, len(parent1) - 1)
+    return parent1[:split] + parent2[split:]
+
+# Change a strategy to favor defecting
+def tweak_strategy(strategy):
+    """ 
+    Flip one random bit, but prefer turning '0' to '1' (defecting)
+    Helps optimize against Always Cooperate
+    """
+    pos = random.randint(0, len(strategy) - 1)
+    new_strategy = list(strategy)
+    # If it’s '0', flip to '1' more often (80% chance), else flip '1' to '0' less often
+    if new_strategy[pos] == '0' and random.random() < 0.8:
+        new_strategy[pos] = '1'
+    elif new_strategy[pos] == '1' and random.random() < 0.2:
+        new_strategy[pos] = '0'
+    return ''.join(new_strategy)
+
+# My optimized Genetic Algorithm
+def my_genetic_algorithm(start_strategy=None, group_size=4, steps=10):
+    """ 
+    My GA to find the best strategy against 'Always Cooperate'
+    Tuned to favor defecting for max points
+    """
+    opponent = '00000'  # Always Cooperate opponent (all C’s)
     
-    # Initialize population with initial strategy and random ones
-    population = [initial_strategy] + [generate_random_strategy(strategy_length) 
-                                       for _ in range(population_size - 1)]
-    best_strategy = initial_strategy
-    best_score = evaluate_strategy(best_strategy, opponent_strategy)
+    # Start with a random strategy if none given
+    if start_strategy is None:
+        start_strategy = make_random_strategy()
     
-    for _ in range(max_iterations):
-        # Evaluate all strategies in the population
-        scores = [evaluate_strategy(ind, opponent_strategy) for ind in population]
-        
-        # Find best in current population
-        current_best_idx = max(range(len(scores)), key=lambda i: scores[i])
-        if scores[current_best_idx] > best_score:
-            best_strategy = population[current_best_idx]
-            best_score = scores[current_best_idx]
-        
-        # Selection: Keep top 2 strategies (elitism)
-        sorted_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
-        parents = [population[sorted_indices[0]], population[sorted_indices[1]]]
-        
-        # Crossover: Create new children (single-point crossover)
-        new_population = parents.copy()
-        crossover_point = random.randint(1, strategy_length - 1)
-        child1 = parents[0][:crossover_point] + parents[1][crossover_point:]
-        child2 = parents[1][:crossover_point] + parents[0][crossover_point:]
-        
-        # Mutation: Flip one random bit in each child
-        for child in [child1, child2]:
-            mutate_pos = random.randint(0, strategy_length - 1)
-            child_list = list(child)
-            child_list[mutate_pos] = '1' if child_list[mutate_pos] == '0' else '0'
-            new_population.append(''.join(child_list))
-        
-        # Fill remaining population with random strategies
-        while len(new_population) < population_size:
-            new_population.append(generate_random_strategy(strategy_length))
-        
-        # Update population
-        population = new_population
+    # Build a group with my start strategy and random ones
+    group = [start_strategy]
+    for _ in range(group_size - 1):
+        group.append(make_random_strategy(len(start_strategy)))
     
+    best_strategy = start_strategy
+    best_score = get_score(best_strategy, opponent)
+    
+    # Evolve the group over a few steps
+    for step in range(steps):
+        # Get scores for all strategies
+        scores = [get_score(strategy, opponent) for strategy in group]
+        
+        # Check if we’ve beaten our best score
+        top_score = max(scores)
+        top_index = scores.index(top_score)
+        if top_score > best_score:
+            best_strategy = group[top_index]
+            best_score = top_score
+        
+        # Sort and pick the top two strategies
+        sorted_group = [x for _, x in sorted(zip(scores, group), reverse=True)]
+        parent1 = sorted_group[0]  # Best
+        parent2 = sorted_group[1]  # Second best
+        
+        # Make new strategies by mixing
+        new1 = mix_strategies(parent1, parent2)
+        new2 = mix_strategies(parent2, parent1)
+        
+        # Tweak them to lean towards defecting
+        new1 = tweak_strategy(new1)
+        new2 = tweak_strategy(new2)
+        
+        # New group: keep top two, add tweaked ones
+        group = [parent1, parent2, new1, new2]
+        
+        # Show progress every few steps
+        if step % 5 == 0:
+            print(f"Step {step}: Best Score = {best_score}")
+
     return best_strategy, best_score
 
-# Run Test Case: Optimize against Always Cooperate Strategy ('000000')
+# Test my optimized GA
 if __name__ == "__main__":
-    random.seed(42)  # For reproducibility
+    random.seed(42)  # Keep results the same each time
     
-    initial_strategy = generate_random_strategy()
-    opponent_strategy = '000000'  # Always Cooperate
-    optimized_strategy, optimized_score = genetic_algorithm(initial_strategy, opponent_strategy)
+    my_start = make_random_strategy()
+    final_strategy, final_score = my_genetic_algorithm(my_start)
     
-    # Display Results
-    print(f"Initial Strategy: {initial_strategy}")
-    print(f"Optimized Strategy: {optimized_strategy}")
-    print(f"Optimized Score: {optimized_score}")
+    print(f"\nMy Starting Strategy: {my_start} ({decode_strategy(my_start)})")
+    print(f"My Best Strategy: {final_strategy} ({decode_strategy(final_strategy)})")
+    print(f"My Best Score: {final_score}")
