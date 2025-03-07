@@ -1,8 +1,7 @@
-from util.player import *
+from config import *
+from strategies.player import Player
 from util.util import *
 
-m1, m2, s1, s2 = play_match('tft', 'allc')
-
-s1 = 1
-print(0 ^ 1)
-print(1 ^ 1)
+p1 = Player(type='ENCODED', encoded_strategy=generate_random_strategy(STRATEGY_LENGTH))
+print(p1.get_mem_string())
+print(p1.get_strategy_string())

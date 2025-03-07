@@ -3,8 +3,9 @@ COOPERATE = 0
 DEFECT = 1
 
 MEMORY_DEPTH = 3
-STRATEGY_LENGTH = int(4**MEMORY_DEPTH) + int(2*MEMORY_DEPTH)
-ITERATION = 1000
+INIT_LENGTH = int(2*MEMORY_DEPTH)
+STRATEGY_LENGTH = int(4**MEMORY_DEPTH) + INIT_LENGTH
+
 
 # payoff matrix
 PAYOFF = {
@@ -17,7 +18,9 @@ PAYOFF = {
 # parameters specific for genetic algorithm
 MUTATION_RATE=0.001
 POPULATION_SIZE=100
+ITERATION = 1000
 
 # parameters for hill climbing
+ROUNDS = 3 # for tournament scoring
 
 # parameters for tabu search

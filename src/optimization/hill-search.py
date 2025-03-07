@@ -1,18 +1,8 @@
 # How to structure prisoner's dilemma as a search problem?
 from config import *
-
-# General idea of hill climbing from geekforgeek
-'''
-def hill_climbing(f, x0):
-    x = x0 # initial solution
-    while True:
-        neighbors = generate_neighbors(x) # generate neighbors of x
-        # find the neighbor with the highest function value
-        best_neighbor = max(neighbors, key=f)
-        if f(best_neighbor) <= f(x): # if the best neighbor is not better than x, stop
-            return x
-        x = best_neighbor # otherwise, continue with the best neighbor
-'''
+from util.util import generate_random_strategy
+from strategies.player import Player
+from util.tournament import tournament
 
 # return a list of neighbours of the current strategy.
 # neighbours are defined to be strategies encodings 
@@ -25,4 +15,32 @@ def generate_neighbours(strategy: list[int]):
         neighbours.append(new_strategy)
     return neighbours
 
-def objective_function():
+# define the objective function to be the cumulative score
+# of the current strategy against all the other strategies
+# in a round-robin tournament.
+def objective_function(strategies: list[list[int]]):
+    players = []
+    for s in strategies:
+        players.append(Player('ENCODED', s))
+    return tournament(players)
+    
+
+# hill climbing method
+# randomly generate a initial state if none is given
+# TODO: find a way to unstuck from local maxima/plateau
+# choice: random restart, random walk, (tabu search already used)
+def hill_climbing(initial_strategy: list[int] = None):
+    if initial_strategy is None: initial_strategy = generate_random_strategy(STRATEGY_LENGTH)
+    current_strategy = initial_strategy
+    while True:
+        neighbours = generate_neighbours(current_strategy)
+        all_strategies = neighbours.append(current_strategy)
+        all_strategies_scores = objective_function(all_strategies)
+
+        current_strategy_score = all_strategies_scores[-1]
+        best_neighbour_score = max(all_strategies_scores[:-1])
+        best_neighbour = neighbours[all_strategies_scores.index(best_neighbour_score)]
+
+        if best_neighbour_score <= current_strategy_score:
+            return current_strategy
+        current_strategy = best_neighbour
