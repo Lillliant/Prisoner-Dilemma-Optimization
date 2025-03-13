@@ -22,9 +22,8 @@ def objective_function(strategies: list[list[int]]):
     players = []
     for s in strategies:
         players.append(Player('ENCODED', s))
-    return tournament(players)
+    return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
     
-
 # hill climbing method
 # randomly generate a initial state if none is given
 # if stuck in iterations, return the current state after configured iteration
