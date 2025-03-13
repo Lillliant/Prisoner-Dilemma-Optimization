@@ -17,8 +17,12 @@ PAYOFF = {
 ITERATIONS = 1000
 
 # parameters specific for genetic algorithm
-MUTATION_RATE=0.001
-POPULATION_SIZE=100
+MUTATION_RATE = 0.001
+CROSSOVER_RATE = 0.5
+POPULATION_SIZE = 100
+GENERATIONS =1000
+ROULETTE_SELECTION=False # if false, top-k selection is used
+SELECTION_SIZE = 10
 
 # parameters for hill climbing
 ROUNDS = 3 # for tournament scoring

@@ -1,132 +1,99 @@
-#Optimized Genetic Algorithm
-
 import random
-import numpy as np
-# Define the Prisoner's Dilemma payoff matrix
-PAYOFFS = {
-    ('C', 'C'): (3, 3),  # Both cooperate: 3 points each
-    ('C', 'D'): (0, 5),  # I cooperate, they defect: 0 for me, 5 for them
-    ('D', 'C'): (5, 0),  # I defect, they cooperate: 5 for me, 0 for them
-    ('D', 'D'): (1, 1)   # Both defect: 1 point each
-}
+from config import *
+from tournament.player import Player
+from tournament.util import generate_random_strategy
+from tournament.tournament import tournament
 
-# Turn a binary string into moves (C or D)
-def decode_strategy(binary):
-    """ 
-    Change a string like '010' into moves ['C', 'D', 'C']
-    '0' is Cooperate (C), '1' is Defect (D)
-    """
-    return ['C' if bit == '0' else 'D' for bit in binary]
 
-# Make a random starting strategy
-def make_random_strategy(length=5):
-    """ 
-    Create a random strategy like '01011'
-    Each spot is randomly '0' or '1'
-    """
-    return ''.join(random.choice('01') for _ in range(length))
-
-# Calculate my score against the opponent
-def get_score(my_strategy, opponent_strategy, rounds=10):
-    """ 
-    Play my strategy vs the opponent for 10 rounds and get my score
-    Repeats the strategy if it’s shorter than 10 rounds
-    """
-    my_moves = decode_strategy(my_strategy)
-    opp_moves = decode_strategy(opponent_strategy)
-    my_score = 0
-    
-    for i in range(rounds):
-        my_move = my_moves[i % len(my_moves)]  # Loop my moves
-        opp_move = opp_moves[i % len(opp_moves)]  # Loop opponent’s moves
-        my_score += PAYOFFS[(my_move, opp_move)][0]  # Add my points
-    return my_score
-
-# Mix two strategies to create a new one
-def mix_strategies(parent1, parent2):
-    """ 
-    Combine two strategies at a random point
-    Like '010' and '111' might make '011' if split at 2
-    """
-    split = random.randint(1, len(parent1) - 1)
-    return parent1[:split] + parent2[split:]
-
-# Change a strategy to favor defecting
-def tweak_strategy(strategy):
-    """ 
-    Flip one random bit, but prefer turning '0' to '1' (defecting)
-    Helps optimize against Always Cooperate
-    """
-    pos = random.randint(0, len(strategy) - 1)
+# randomly flip a bit in the strategy given a set mutation rate in config.py
+def mutate(strategy: list[int]):
     new_strategy = list(strategy)
-    # If it’s '0', flip to '1' more often (80% chance), else flip '1' to '0' less often
-    if new_strategy[pos] == '0' and random.random() < 0.8:
-        new_strategy[pos] = '1'
-    elif new_strategy[pos] == '1' and random.random() < 0.2:
-        new_strategy[pos] = '0'
-    return ''.join(new_strategy)
+    for i in range(len(new_strategy)):
+        mutate = random.choices([True, False], p=[MUTATION_RATE, 1 - MUTATION_RATE])
+        if mutate:
+            new_strategy[i] = new_strategy[i] ^ 1
+    return new_strategy
 
-# My optimized Genetic Algorithm
-def my_genetic_algorithm(start_strategy=None, group_size=4, steps=10):
-    """ 
-    My GA to find the best strategy against 'Always Cooperate'
-    Tuned to favor defecting for max points
-    """
-    opponent = '00000'  # Always Cooperate opponent (all C’s)
-    
-    # Start with a random strategy if none given
-    if start_strategy is None:
-        start_strategy = make_random_strategy()
-    
-    # Build a group with my start strategy and random ones
-    group = [start_strategy]
-    for _ in range(group_size - 1):
-        group.append(make_random_strategy(len(start_strategy)))
-    
-    best_strategy = start_strategy
-    best_score = get_score(best_strategy, opponent)
-    
-    # Evolve the group over a few steps
-    for step in range(steps):
-        # Get scores for all strategies
-        scores = [get_score(strategy, opponent) for strategy in group]
-        
-        # Check if we’ve beaten our best score
-        top_score = max(scores)
-        top_index = scores.index(top_score)
-        if top_score > best_score:
-            best_strategy = group[top_index]
-            best_score = top_score
-        
-        # Sort and pick the top two strategies
-        sorted_group = [x for _, x in sorted(zip(scores, group), reverse=True)]
-        parent1 = sorted_group[0]  # Best
-        parent2 = sorted_group[1]  # Second best
-        
-        # Make new strategies by mixing
-        new1 = mix_strategies(parent1, parent2)
-        new2 = mix_strategies(parent2, parent1)
-        
-        # Tweak them to lean towards defecting
-        new1 = tweak_strategy(new1)
-        new2 = tweak_strategy(new2)
-        
-        # New group: keep top two, add tweaked ones
-        group = [parent1, parent2, new1, new2]
-        
-        # Show progress every few steps
-        if step % 5 == 0:
-            print(f"Step {step}: Best Score = {best_score}")
+# given a random k population, reproduce them to get a new population of size POPULATION_SIZE
+def reproduce_population(selected_population: list[list[int]]):
+    new_population = []
+    while len(new_population) < POPULATION_SIZE:
+        parent_1 = random.choice(selected_population)
+        idx = selected_population.index(parent_1)
+        parent_2 = random.choice(selected_population[:idx] + selected_population[idx+1:]) # ensure unique parents
 
-    return best_strategy, best_score
+        crossover = random.choices([True, False], p=[CROSSOVER_RATE, 1 - CROSSOVER_RATE])
+        if not crossover:
+            child_1 = parent_1
+            child_2 = parent_2
+        else:
+            child_1, child2 = crossover(parent_1, parent_2)
+        
+        # mutate the children based on given mutation rate
+        child_1 = mutate(child_1)
+        child_2 = mutate(child_2)
 
-# Test my optimized GA
-if __name__ == "__main__":
-    random.seed(42)  # Keep results the same each time
+        # keep returned population size consistent to be at POPULATION_SIZE
+        if child_1 not in new_population and len(new_population) < POPULATION_SIZE:
+            new_population.append(child_1)
+        if child_2 not in new_population and len(new_population) < POPULATION_SIZE:
+            new_population.append(child_2)
+    return new_population
+
+# Combine two strategies at a random point (e.g., '010' and '111' produces '011' if split at the 2nd bit)
+def crossover(parent1: list[int], parent2: list[int]):
+    split = random.randint(1, len(parent1) - 1)
+    new_strategy = parent1[:split] + parent2[split:]
+    assert len(new_strategy) == len(parent1)
+    return new_strategy
+
+# selection can be based on the top-k scores, or random roulette
+# customizable based on config.py
+def selection_function(population: list[list[int]], population_score: list[int]):
+    if ROULETTE_SELECTION:
+        selected_population = random.choices[population, population_score, SELECTION_SIZE]
+    else:
+        sorted_score = sorted(population_score, reverse=True)
+        selected_population = []
+        for score in sorted_score[:SELECTION_SIZE]:
+            selected_population.append(population[population_score.index(score)])
+    return selected_population
+
+# same as objective function in hill climbing
+def fitness_function(strategies: list[list[int]]):
+    players = []
+    for s in strategies:
+        players.append(Player('ENCODED', s))
+    return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
+
+# generate the population of strategies
+# with no specified population 
+def generate_population():
+    population = []
+    while len(population) < POPULATION_SIZE:
+        random_strategy = generate_random_strategy(STRATEGY_LENGTH)
+        if random_strategy not in population:
+            population.append(random_strategy)
+    return population
     
-    my_start = make_random_strategy()
-    final_strategy, final_score = my_genetic_algorithm(my_start)
+# allows two optimization comparisons:
+# 1. returns the best strategy against a particular opponent
+# 2. returns the best strategy against its random populations
+def genetic(population: list[list[int]] = None, opponent: list[int] = None):
+    if population is None: population = generate_population()
+
+    # For optimizing against a particular opponent
+    if opponent is not None:
+        population_score = []
+        for i in range(population):
+            population_score[i] = tournament([Player('ENCODED', population[i]), Player('ENCODED', opponent)])
+            selected_population = selection_function(population, population_score)
+            population = reproduce_population(selected_population)
+    else: # for optimizing against a random population
+        for _ in range(GENERATIONS):
+            population_score = fitness_function(population)
+            selected_population = selection_function(population, population_score)
+            population = reproduce_population(selected_population)
     
-    print(f"\nMy Starting Strategy: {my_start} ({decode_strategy(my_start)})")
-    print(f"My Best Strategy: {final_strategy} ({decode_strategy(final_strategy)})")
-    print(f"My Best Score: {final_score}")
+    # return the best strategy based on the final population
+    return population[population_score.index(max(population_score))]
