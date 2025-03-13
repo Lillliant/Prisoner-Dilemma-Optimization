@@ -6,10 +6,10 @@ from tournament.tournament import tournament
 
 
 # randomly flip a bit in the strategy given a set mutation rate in config.py
-def mutate(strategy: list[int]):
+def mutate_function(strategy: list[int]):
     new_strategy = list(strategy)
     for i in range(len(new_strategy)):
-        mutate = random.choices([True, False], p=[MUTATION_RATE, 1 - MUTATION_RATE])
+        mutate = random.choices([True, False], weights=[MUTATION_RATE, 1 - MUTATION_RATE])
         if mutate:
             new_strategy[i] = new_strategy[i] ^ 1
     return new_strategy
@@ -17,35 +17,35 @@ def mutate(strategy: list[int]):
 # given a random k population, reproduce them to get a new population of size POPULATION_SIZE
 def reproduce_population(selected_population: list[list[int]]):
     new_population = []
-    while len(new_population) < POPULATION_SIZE:
+    for _ in range(POPULATION_SIZE//2):
         parent_1 = random.choice(selected_population)
         idx = selected_population.index(parent_1)
         parent_2 = random.choice(selected_population[:idx] + selected_population[idx+1:]) # ensure unique parents
 
-        crossover = random.choices([True, False], p=[CROSSOVER_RATE, 1 - CROSSOVER_RATE])
+        crossover = random.choices([True, False], weights=[CROSSOVER_RATE, 1 - CROSSOVER_RATE])
         if not crossover:
             child_1 = parent_1
             child_2 = parent_2
         else:
-            child_1, child2 = crossover(parent_1, parent_2)
+            children = crossover_function(parent_1, parent_2)
         
         # mutate the children based on given mutation rate
-        child_1 = mutate(child_1)
-        child_2 = mutate(child_2)
+        child_1 = mutate_function(children[0])
+        child_2 = mutate_function(children[1])
 
-        # keep returned population size consistent to be at POPULATION_SIZE
-        if child_1 not in new_population and len(new_population) < POPULATION_SIZE:
-            new_population.append(child_1)
-        if child_2 not in new_population and len(new_population) < POPULATION_SIZE:
-            new_population.append(child_2)
+        # for low mutation rate, ensure unique children leads to infinite loops
+        new_population.append(child_1)
+        new_population.append(child_2)
     return new_population
 
 # Combine two strategies at a random point (e.g., '010' and '111' produces '011' if split at the 2nd bit)
-def crossover(parent1: list[int], parent2: list[int]):
-    split = random.randint(1, len(parent1) - 1)
-    new_strategy = parent1[:split] + parent2[split:]
-    assert len(new_strategy) == len(parent1)
-    return new_strategy
+def crossover_function(parent_1: list[int], parent_2: list[int]):
+    split = random.randint(1, len(parent_1) - 1)
+    child_1 = parent_1[:split] + parent_2[split:]
+    child_2 = parent_2[:split] + parent_1[split:]
+    assert len(child_1) == len(parent_1)
+    assert len(child_2) == len(parent_1)
+    return child_1, child_2
 
 # selection can be based on the top-k scores, or random roulette
 # customizable based on config.py
@@ -72,7 +72,7 @@ def generate_population():
     population = []
     while len(population) < POPULATION_SIZE:
         random_strategy = generate_random_strategy(STRATEGY_LENGTH)
-        if random_strategy not in population:
+        if random_strategy not in population: # ensure unique population in the beginning 
             population.append(random_strategy)
     return population
     
@@ -84,13 +84,14 @@ def genetic(population: list[list[int]] = None, opponent: list[int] = None):
 
     # For optimizing against a particular opponent
     if opponent is not None:
-        population_score = []
-        for i in range(population):
-            population_score[i] = tournament([Player('ENCODED', population[i]), Player('ENCODED', opponent)])
-            selected_population = selection_function(population, population_score)
-            population = reproduce_population(selected_population)
+        for i in range(GENERATIONS):
+            population_score = []
+            for i in range(population):
+                population_score[i] = tournament([Player('ENCODED', population[i]), Player('ENCODED', opponent)])
+                selected_population = selection_function(population, population_score)
+                population = reproduce_population(selected_population)
     else: # for optimizing against a random population
-        for _ in range(GENERATIONS):
+        for i in range(GENERATIONS):
             population_score = fitness_function(population)
             selected_population = selection_function(population, population_score)
             population = reproduce_population(selected_population)

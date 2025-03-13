@@ -37,9 +37,10 @@ def objective_function(strategies: list[list[int]], opponent: list[int]):
 def hill_climbing(initial_strategy: list[int] = None, opponent_strategy: list[int] = None):
     if initial_strategy is None: initial_strategy = generate_random_strategy(STRATEGY_LENGTH)
     current_strategy = initial_strategy
-    for i in ITERATIONS:
+    for _ in range(ITERATIONS):
         neighbours = generate_neighbours(current_strategy)
-        all_strategies = neighbours.append(current_strategy)
+        all_strategies = neighbours
+        all_strategies.append(current_strategy)
         all_strategies_scores = objective_function(all_strategies, opponent_strategy)
 
         current_strategy_score = all_strategies_scores[-1]

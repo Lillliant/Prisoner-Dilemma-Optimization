@@ -1,5 +1,5 @@
 import random
-import strategies
+import tournament.strategies as strategies
 from config import COOPERATE, DEFECT, MEMORY_DEPTH, INIT_LENGTH
 
 class Player:
@@ -40,7 +40,8 @@ class Player:
             case 'ENCODED':
                 if len(self.mem) == 0:
                     self.init_encoded_mem()
-                    move_idx = int("".join(map(str, self.mem[-INIT_LENGTH])), 2)
+                    init_move = self.encoded_strategy[-INIT_LENGTH:]
+                    move_idx = int("".join(str(i) for i in init_move), 2)
                     return self.encoded_strategy[move_idx]
                 else:
                     return strategies.ENCODED(self.encoded_strategy, self.mem, opponent_mem)
@@ -51,19 +52,19 @@ class Player:
             case 'ALLD':
                 return strategies.ALLD()
             case 'TFT':
-                return strategies.TFT(self.mem)
+                return strategies.TFT(self.mem, opponent_mem)
             case 'TF2T':
-                return strategies.TF2T(self.mem)
+                return strategies.TF2T(self.mem, opponent_mem)
             case 'STFT':
-                return strategies.STFT(self.mem)
+                return strategies.STFT(self.mem, opponent_mem)
             case 'GTFT':
-                move, punishment_count, reward_count = strategies.GTFT(self, opponent_mem, self.punishment_count, self.reward_count)
+                move, punishment_count, reward_count = strategies.GTFT(self.mem, opponent_mem, self.punishment_count, self.reward_count)
                 self.punishment_count = punishment_count
                 self.reward_count = reward_count
                 return move
             case 'PAVLOV':
                 return strategies.PAVLOV(self.mem, opponent_mem)
-            case 'ADAPTIVE_PAVLOV':
+            case 'APAVLOV':
                 return strategies.ADAPTIVE_PAVLOV(self.mem, opponent_mem)
             case 'GRIM':
                 return strategies.GRIM(opponent_mem)

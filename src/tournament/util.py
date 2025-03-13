@@ -5,7 +5,8 @@ import itertools
 # generate a randomized strategy
 def generate_random_strategy(length: int):
     # random bit for each position of the strategy
-    return [random.randint(min(COOPERATE, DEFECT), max(COOPERATE, DEFECT)) for i in range(length)]
+    random_strategy = [random.randint(min(COOPERATE, DEFECT), max(COOPERATE, DEFECT)) for i in range(length)]
+    return random_strategy 
 
 # generate a list of distinct strategies based on the given length
 def generate_unique_strategies(length: int):

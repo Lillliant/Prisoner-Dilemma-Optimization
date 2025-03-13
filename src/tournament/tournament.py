@@ -19,7 +19,7 @@ def match(player_1: Player, player_2: Player):
 
 def tournament(players: list[Player]):
     # tournament_scores[i] is the tournament score of players[i]
-    tournament_scores = []
+    tournament_scores = [0 for i in range(len(players))]
     for i in range(len(players)):
         for j in range(i+1, len(players)):
             match(players[i], players[j])

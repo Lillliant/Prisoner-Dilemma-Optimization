@@ -1,7 +1,7 @@
 import random
 from config import *
 from tournament.player import Player
-from tournament import tournament
+from tournament.tournament import tournament
 from tournament.util import generate_random_strategy
 
 # define the objective function to be the cumulative score
@@ -36,10 +36,11 @@ def tabu_search(initial_strategy: list[int] = None, opponent_strategy: list[int]
     current_strategy = initial_strategy
     tabu_list = []
 
-    for i in ITERATIONS:
+    for _ in range(ITERATIONS):
         neighbours = generate_neighbours(current_strategy)
         neighbours = [n for n in neighbours if n not in tabu_list] # Avoid revisiting states / strategies
-        all_strategies = neighbours.append(current_strategy)
+        all_strategies = neighbours
+        all_strategies.append(current_strategy)
         all_strategies_scores = objective_function(all_strategies, opponent_strategy)
 
         current_strategy_score = all_strategies_scores[-1]
