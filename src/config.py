@@ -14,13 +14,13 @@ PAYOFF = {
     (DEFECT, DEFECT):(1,1)
 }
 
-ITERATIONS = 1000
+ITERATIONS = 100
 
 # parameters specific for genetic algorithm
 MUTATION_RATE = 0.001
 CROSSOVER_RATE = 0.5
 POPULATION_SIZE = 100
-GENERATIONS =1000
+GENERATIONS =100
 ROULETTE_SELECTION=False # if false, top-k selection is used
 SELECTION_SIZE = 10
 
