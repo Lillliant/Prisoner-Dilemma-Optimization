@@ -61,6 +61,16 @@ class Player:
                 self.punishment_count = punishment_count
                 self.reward_count = reward_count
                 return move
+            case 'PAVLOV':
+                return strategies.PAVLOV(self.mem, opponent_mem)
+            case 'ADAPTIVE_PAVLOV':
+                return strategies.ADAPTIVE_PAVLOV(self.mem, opponent_mem)
+            case 'GRIM':
+                return strategies.GRIM(opponent_mem)
+            case 'EXT_ZD':
+                return strategies.EXT_ZD(self.mem, opponent_mem)
+            case 'GEN_ZD':
+                return strategies.GEN_ZD(self.mem, opponent_mem)
             case _:
                 raise NotImplementedError
     

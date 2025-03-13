@@ -27,12 +27,11 @@ def objective_function(strategies: list[list[int]]):
 
 # hill climbing method
 # randomly generate a initial state if none is given
-# TODO: find a way to unstuck from local maxima/plateau
-# choice: random restart, random walk, (tabu search already used)
+# if stuck in iterations, return the current state after configured iteration
 def hill_climbing(initial_strategy: list[int] = None):
     if initial_strategy is None: initial_strategy = generate_random_strategy(STRATEGY_LENGTH)
     current_strategy = initial_strategy
-    while True:
+    for i in ITERATIONS:
         neighbours = generate_neighbours(current_strategy)
         all_strategies = neighbours.append(current_strategy)
         all_strategies_scores = objective_function(all_strategies)
@@ -44,3 +43,5 @@ def hill_climbing(initial_strategy: list[int] = None):
         if best_neighbour_score <= current_strategy_score:
             return current_strategy
         current_strategy = best_neighbour
+        
+    return current_strategy

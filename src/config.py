@@ -14,10 +14,11 @@ PAYOFF = {
     (DEFECT, DEFECT):(1,1)
 }
 
+ITERATIONS = 1000
+
 # parameters specific for genetic algorithm
 MUTATION_RATE=0.001
 POPULATION_SIZE=100
-ITERATION = 1000
 
 # parameters for hill climbing
 ROUNDS = 3 # for tournament scoring
