@@ -18,22 +18,29 @@ def generate_neighbours(strategy: list[int]):
 # define the objective function to be the cumulative score
 # of the current strategy against all the other strategies
 # in a round-robin tournament.
-def objective_function(strategies: list[list[int]]):
+def objective_function(strategies: list[list[int]], opponent: list[int]):
     players = []
     for s in strategies:
         players.append(Player('ENCODED', s))
-    return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
+    if opponent is not None:
+        opponent_player = Player('ENCODED', opponent)
+        tournament_scores = []
+        for p in players:
+            tournament_scores.append(tournament([p, opponent_player]))
+        return tournament_scores
+    else:
+        return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
     
 # hill climbing method
 # randomly generate a initial state if none is given
 # if stuck in iterations, return the current state after configured iteration
-def hill_climbing(initial_strategy: list[int] = None):
+def hill_climbing(initial_strategy: list[int] = None, opponent_strategy: list[int] = None):
     if initial_strategy is None: initial_strategy = generate_random_strategy(STRATEGY_LENGTH)
     current_strategy = initial_strategy
     for i in ITERATIONS:
         neighbours = generate_neighbours(current_strategy)
         all_strategies = neighbours.append(current_strategy)
-        all_strategies_scores = objective_function(all_strategies)
+        all_strategies_scores = objective_function(all_strategies, opponent_strategy)
 
         current_strategy_score = all_strategies_scores[-1]
         best_neighbour_score = max(all_strategies_scores[:-1])
