@@ -1,0 +1,58 @@
+# Config
+# types
+COOPERATE = 0
+DEFECT = 1
+
+MEMORY_DEPTH = 3
+INIT_LENGTH = int(2*MEMORY_DEPTH)
+STRATEGY_LENGTH = int(4**MEMORY_DEPTH) + INIT_LENGTH
+
+# payoff matrix
+PAYOFF = {
+    (COOPERATE,COOPERATE):(3,3),
+    (DEFECT,COOPERATE):(5, 0),
+    (COOPERATE,DEFECT):(0, 5),
+    (DEFECT, DEFECT):(1,1)
+}
+
+ITERATIONS = 500
+
+# parameters specific for genetic algorithm
+MUTATION_RATE = 0.001
+CROSSOVER_RATE = 0.5
+POPULATION_SIZE = 100
+GENERATIONS =500
+ROULETTE_SELECTION=False # if false, top-k selection is used
+SELECTION_SIZE = 10
+
+# parameters for hill climbing
+ROUNDS = 10 # for tournament scoring
+
+# parameters for tabu search
+TABU_SIZE = 5
+
+# Output
+Hill Climbing
+Hill Climbing Complete
+optimized strategy:  [1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0]
+Tabu Search
+Tabu Search Complete
+optimized strategy:  [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1]
+Genetic Algorithm
+Genetic Algorithms Complete
+optimized strategy:  [0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0]
+{'ALLC': (0, 15, 15),
+ 'ALLD': (26, 4, 0),
+ 'APAVLOV': (0, 20, 10),
+ 'EXT_ZD': (14, 10, 6),
+ 'GENETIC': (9, 8, 13),
+ 'GEN_ZD': (20, 7, 3),
+ 'GRIM': (8, 18, 4),
+ 'GTFT': (3, 17, 10),
+ 'HILL_CLIMBING': (18, 8, 4),
+ 'PAVLOV': (4, 14, 12),
+ 'RAND': (13, 6, 11),
+ 'STFT': (6, 24, 0),
+ 'TABU_SEARCH': (10, 5, 15),
+ 'TF2T': (0, 14, 16),
+ 'TFT': (0, 18, 12)}
