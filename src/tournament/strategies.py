@@ -52,7 +52,7 @@ def ADAPTIVE_PAVLOV(player_mem: list[int], opponent_mem: list[int]):
     if len(opponent_mem) < 6 or MEMORY_DEPTH < 6:
         return TFT(player_mem, opponent_mem)
     else:
-        if (DEFECT not in opponent_mem[-6]): # classify opponent as cooperator
+        if (DEFECT not in opponent_mem[-6:]): # classify opponent as cooperator
             return COOPERATE
         elif (opponent_mem[-6:].count(DEFECT) >= 4): # classify opponent as defector
             return DEFECT
