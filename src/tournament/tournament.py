@@ -13,7 +13,9 @@ def match(player_1: Player, player_2: Player):
         score = calculate_score(move_1, move_2)
 
         player_1.add_score(score[0])
-        player_2.add_score(score[1])
+        # ensures no double counting of scores
+        if player_2 is not player_1: player_2.add_score(score[1])
+
         player_1.add_memory(move_1)
         player_2.add_memory(move_2)
 
