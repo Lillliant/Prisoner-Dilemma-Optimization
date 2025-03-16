@@ -1,16 +1,15 @@
 from config import *
-from tournament.player import Player
-from tournament.util import *
 from optimization.hill import hill_climbing
 from optimization.tabu import tabu_search
 from optimization.genetic import genetic
 from tournament.tournament import tournament
 from pprint import pprint
+from tournament.player import Player
 
 # MAIN PARAMETERS
-USE_HILL_CLIMBING = True
-USE_TABU_SEARCH = True
-USE_GENETIC = True
+USE_HILL_CLIMBING = False
+USE_TABU_SEARCH = False
+USE_GENETIC = False
 human_strategy = ['ALLC', 'ALLD', 'RAND', 'TFT', 'TF2T', 'STFT', 'GTFT', 'PAVLOV', 'APAVLOV', 'GRIM', 'EXT_ZD', 'GEN_ZD']
 
 # Get the list of strategies

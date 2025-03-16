@@ -1,7 +1,7 @@
 import random
 from config import *
 from tournament.player import Player
-from tournament.util import generate_random_strategy
+from tournament.strategies import generate_random_strategy
 from tournament.tournament import tournament
 
 
@@ -43,8 +43,6 @@ def crossover_function(parent_1: list[int], parent_2: list[int]):
     split = random.randint(1, len(parent_1) - 1)
     child_1 = parent_1[:split] + parent_2[split:]
     child_2 = parent_2[:split] + parent_1[split:]
-    assert len(child_1) == len(parent_1)
-    assert len(child_2) == len(parent_1)
     return child_1, child_2
 
 # selection can be based on the top-k scores, or random roulette

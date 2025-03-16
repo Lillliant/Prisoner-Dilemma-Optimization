@@ -14,18 +14,18 @@ PAYOFF = {
     (DEFECT, DEFECT):(1,1)
 }
 
-ITERATIONS = 100
+ITERATIONS = 10
 
 # parameters specific for genetic algorithm
 MUTATION_RATE = 0.001
 CROSSOVER_RATE = 0.5
 POPULATION_SIZE = 100
-GENERATIONS =100
+GENERATIONS =1000
 ROULETTE_SELECTION=False # if false, top-k selection is used
 SELECTION_SIZE = 10
 
 # parameters for hill climbing
-ROUNDS = 3 # for tournament scoring
+ROUNDS = 100 # for tournament scoring
 
 # parameters for tabu search
 TABU_SIZE = 5

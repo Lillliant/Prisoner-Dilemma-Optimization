@@ -2,7 +2,7 @@ import random
 from config import *
 from tournament.player import Player
 from tournament.tournament import tournament
-from tournament.util import generate_random_strategy
+from tournament.strategies import generate_random_strategy
 
 # define the objective function to be the cumulative score
 # of the current strategy against all the other strategies

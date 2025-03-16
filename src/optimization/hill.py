@@ -1,6 +1,6 @@
 # How to structure prisoner's dilemma as a search problem?
 from config import *
-from tournament.util import generate_random_strategy
+from tournament.strategies import generate_random_strategy
 from tournament.player import Player
 from tournament.tournament import tournament
 
