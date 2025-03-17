@@ -1,0 +1,790 @@
+Genetic Algorithm
+Iteration  0
+28568
+Iteration  1
+26075
+Iteration  2
+27884
+Iteration  3
+27722
+Iteration  4
+27104
+Iteration  5
+29397
+Iteration  6
+31904
+Iteration  7
+25636
+Iteration  8
+38017
+Iteration  9
+26677
+Iteration  10
+48045
+Iteration  11
+29408
+Iteration  12
+14850
+Iteration  13
+29700
+Iteration  14
+14850
+Iteration  15
+29700
+Iteration  16
+14850
+Iteration  17
+29700
+Iteration  18
+14850
+Iteration  19
+29700
+Iteration  20
+14850
+Iteration  21
+29700
+Iteration  22
+14850
+Iteration  23
+29700
+Iteration  24
+14850
+Iteration  25
+29700
+Iteration  26
+14850
+Iteration  27
+29700
+Iteration  28
+14850
+Iteration  29
+29700
+Iteration  30
+14850
+Iteration  31
+29700
+Iteration  32
+14850
+Iteration  33
+29700
+Iteration  34
+14850
+Iteration  35
+29700
+Iteration  36
+14850
+Iteration  37
+29700
+Iteration  38
+14850
+Iteration  39
+29700
+Iteration  40
+14850
+Iteration  41
+29700
+Iteration  42
+14850
+Iteration  43
+29700
+Iteration  44
+14850
+Iteration  45
+29700
+Iteration  46
+14850
+Iteration  47
+29700
+Iteration  48
+14850
+Iteration  49
+29700
+Iteration  50
+14850
+Iteration  51
+29700
+Iteration  52
+14850
+Iteration  53
+29700
+Iteration  54
+14850
+Iteration  55
+29700
+Iteration  56
+14850
+Iteration  57
+29700
+Iteration  58
+14850
+Iteration  59
+29700
+Iteration  60
+14850
+Iteration  61
+29700
+Iteration  62
+14850
+Iteration  63
+29700
+Iteration  64
+14850
+Iteration  65
+29700
+Iteration  66
+14850
+Iteration  67
+29700
+Iteration  68
+14850
+Iteration  69
+29700
+Iteration  70
+14850
+Iteration  71
+29700
+Iteration  72
+14850
+Iteration  73
+29700
+Iteration  74
+14850
+Iteration  75
+29700
+Iteration  76
+14850
+Iteration  77
+29700
+Iteration  78
+14850
+Iteration  79
+29700
+Iteration  80
+14850
+Iteration  81
+29700
+Iteration  82
+14850
+Iteration  83
+29700
+Iteration  84
+14850
+Iteration  85
+29700
+Iteration  86
+14850
+Iteration  87
+29700
+Iteration  88
+14850
+Iteration  89
+29700
+Iteration  90
+14850
+Iteration  91
+29700
+Iteration  92
+14850
+Iteration  93
+29700
+Iteration  94
+14850
+Iteration  95
+29700
+Iteration  96
+14850
+Iteration  97
+29700
+Iteration  98
+14850
+Iteration  99
+29700
+Iteration  100
+14850
+Iteration  101
+29700
+Iteration  102
+14850
+Iteration  103
+29700
+Iteration  104
+14850
+Iteration  105
+29700
+Iteration  106
+14850
+Iteration  107
+29700
+Iteration  108
+14850
+Iteration  109
+29700
+Iteration  110
+14850
+Iteration  111
+29700
+Iteration  112
+14850
+Iteration  113
+29700
+Iteration  114
+14850
+Iteration  115
+29700
+Iteration  116
+14850
+Iteration  117
+29700
+Iteration  118
+14850
+Iteration  119
+29700
+Iteration  120
+14850
+Iteration  121
+29700
+Iteration  122
+14850
+Iteration  123
+29700
+Iteration  124
+14850
+Iteration  125
+29700
+Iteration  126
+14850
+Iteration  127
+29700
+Iteration  128
+14850
+Iteration  129
+29700
+Iteration  130
+14850
+Iteration  131
+29700
+Iteration  132
+14850
+Iteration  133
+29700
+Iteration  134
+14850
+Iteration  135
+29700
+Iteration  136
+14850
+Iteration  137
+29700
+Iteration  138
+14850
+Iteration  139
+29700
+Iteration  140
+14850
+Iteration  141
+29700
+Iteration  142
+14850
+Iteration  143
+29700
+Iteration  144
+14850
+Iteration  145
+29700
+Iteration  146
+14850
+Iteration  147
+29700
+Iteration  148
+14850
+Iteration  149
+29700
+Iteration  150
+14850
+Iteration  151
+29700
+Iteration  152
+14850
+Iteration  153
+29700
+Iteration  154
+14850
+Iteration  155
+29700
+Iteration  156
+14850
+Iteration  157
+29700
+Iteration  158
+14850
+Iteration  159
+29700
+Iteration  160
+14850
+Iteration  161
+29700
+Iteration  162
+14850
+Iteration  163
+29700
+Iteration  164
+14850
+Iteration  165
+29700
+Iteration  166
+14850
+Iteration  167
+29700
+Iteration  168
+14850
+Iteration  169
+29700
+Iteration  170
+14850
+Iteration  171
+29700
+Iteration  172
+14850
+Iteration  173
+29700
+Iteration  174
+14850
+Iteration  175
+29700
+Iteration  176
+14850
+Iteration  177
+29700
+Iteration  178
+14850
+Iteration  179
+29700
+Iteration  180
+14850
+Iteration  181
+29700
+Iteration  182
+14850
+Iteration  183
+29700
+Iteration  184
+14850
+Iteration  185
+29700
+Iteration  186
+14850
+Iteration  187
+29700
+Iteration  188
+14850
+Iteration  189
+29700
+Iteration  190
+14850
+Iteration  191
+29700
+Iteration  192
+14850
+Iteration  193
+29700
+Iteration  194
+14850
+Iteration  195
+29700
+Iteration  196
+14850
+Iteration  197
+29700
+Iteration  198
+14850
+Iteration  199
+29700
+Iteration  200
+14850
+Iteration  201
+29700
+Iteration  202
+14850
+Iteration  203
+29700
+Iteration  204
+14850
+Iteration  205
+29700
+Iteration  206
+14850
+Iteration  207
+29700
+Iteration  208
+14850
+Iteration  209
+29700
+Iteration  210
+14850
+Iteration  211
+29700
+Iteration  212
+14850
+Iteration  213
+29700
+Iteration  214
+14850
+Iteration  215
+29700
+Iteration  216
+14850
+Iteration  217
+29700
+Iteration  218
+14850
+Iteration  219
+29700
+Iteration  220
+14850
+Iteration  221
+29700
+Iteration  222
+14850
+Iteration  223
+29700
+Iteration  224
+14850
+Iteration  225
+29700
+Iteration  226
+14850
+Iteration  227
+29700
+Iteration  228
+14850
+Iteration  229
+29700
+Iteration  230
+14850
+Iteration  231
+29700
+Iteration  232
+14850
+Iteration  233
+29700
+Iteration  234
+14850
+Iteration  235
+29700
+Iteration  236
+14850
+Iteration  237
+29700
+Iteration  238
+14850
+Iteration  239
+29700
+Iteration  240
+14850
+Iteration  241
+29700
+Iteration  242
+14850
+Iteration  243
+29700
+Iteration  244
+14850
+Iteration  245
+29700
+Iteration  246
+14850
+Iteration  247
+29700
+Iteration  248
+14850
+Iteration  249
+29700
+Iteration  250
+14850
+Iteration  251
+29700
+Iteration  252
+14850
+Iteration  253
+29700
+Iteration  254
+14850
+Iteration  255
+29700
+Iteration  256
+14850
+Iteration  257
+29700
+Iteration  258
+14850
+Iteration  259
+29700
+Iteration  260
+14850
+Iteration  261
+29700
+Iteration  262
+14850
+Iteration  263
+29700
+Iteration  264
+14850
+Iteration  265
+29700
+Iteration  266
+14850
+Iteration  267
+29700
+Iteration  268
+14850
+Iteration  269
+29700
+Iteration  270
+14850
+Iteration  271
+29700
+Iteration  272
+14850
+Iteration  273
+29700
+Iteration  274
+14850
+Iteration  275
+29700
+Iteration  276
+14850
+Iteration  277
+29700
+Iteration  278
+14850
+Iteration  279
+29700
+Iteration  280
+14850
+Iteration  281
+29700
+Iteration  282
+14850
+Iteration  283
+29700
+Iteration  284
+14850
+Iteration  285
+29700
+Iteration  286
+14850
+Iteration  287
+29700
+Iteration  288
+14850
+Iteration  289
+29700
+Iteration  290
+14850
+Iteration  291
+29700
+Iteration  292
+14850
+Iteration  293
+29700
+Iteration  294
+14850
+Iteration  295
+29700
+Iteration  296
+14850
+Iteration  297
+29700
+Iteration  298
+14850
+Iteration  299
+29700
+Iteration  300
+14850
+Iteration  301
+29700
+Iteration  302
+14850
+Iteration  303
+29700
+Iteration  304
+14850
+Iteration  305
+29700
+Iteration  306
+14850
+Iteration  307
+29700
+Iteration  308
+14850
+Iteration  309
+29700
+Iteration  310
+14850
+Iteration  311
+29700
+Iteration  312
+14850
+Iteration  313
+29700
+Iteration  314
+14850
+Iteration  315
+29700
+Iteration  316
+14850
+Iteration  317
+29700
+Iteration  318
+14850
+Iteration  319
+29700
+Iteration  320
+14850
+Iteration  321
+29700
+Iteration  322
+14850
+Iteration  323
+29700
+Iteration  324
+14850
+Iteration  325
+29700
+Iteration  326
+14850
+Iteration  327
+29700
+Iteration  328
+14850
+Iteration  329
+29700
+Iteration  330
+14850
+Iteration  331
+29700
+Iteration  332
+14850
+Iteration  333
+29700
+Iteration  334
+14850
+Iteration  335
+29700
+Iteration  336
+14850
+Iteration  337
+29700
+Iteration  338
+14850
+Iteration  339
+29700
+Iteration  340
+14850
+Iteration  341
+29700
+Iteration  342
+14850
+Iteration  343
+29700
+Iteration  344
+14850
+Iteration  345
+29700
+Iteration  346
+14850
+Iteration  347
+29700
+Iteration  348
+14850
+Iteration  349
+29700
+Iteration  350
+14850
+Iteration  351
+29700
+Iteration  352
+14850
+Iteration  353
+29700
+Iteration  354
+14850
+Iteration  355
+29700
+Iteration  356
+14850
+Iteration  357
+29700
+Iteration  358
+14850
+Iteration  359
+29700
+Iteration  360
+14850
+Iteration  361
+29700
+Iteration  362
+14850
+Iteration  363
+29700
+Iteration  364
+14850
+Iteration  365
+29700
+Iteration  366
+14850
+Iteration  367
+29700
+Iteration  368
+14850
+Iteration  369
+29700
+Iteration  370
+14850
+Iteration  371
+29700
+Iteration  372
+14850
+Iteration  373
+29700
+Iteration  374
+14850
+Iteration  375
+29700
+Iteration  376
+14850
+Iteration  377
+29700
+Iteration  378
+14850
+Iteration  379
+29700
+Iteration  380
+14850
+Iteration  381
+29700
+Iteration  382
+14850
+Iteration  383
+29700
+Iteration  384
+14850
+Iteration  385
+29700
+Iteration  386
+14850
+Iteration  387
+29700
+Iteration  388
+14850
+Iteration  389
+29700
+Iteration  390
+14850
+Iteration  391
+29700
+Iteration  392
+14850
+Iteration  393
+29700
+Iteration 

@@ -1,0 +1,607 @@
+Genetic Algorithm
+Iteration  0
+30428
+Iteration  1
+29425
+Iteration  2
+24688
+Iteration  3
+30545
+Iteration  4
+27839
+Iteration  5
+28452
+Iteration  6
+29075
+Iteration  7
+29821
+Iteration  8
+29031
+Iteration  9
+29434
+Iteration  10
+16434
+Iteration  11
+29502
+Iteration  12
+16434
+Iteration  13
+29502
+Iteration  14
+16434
+Iteration  15
+29502
+Iteration  16
+16434
+Iteration  17
+29502
+Iteration  18
+16434
+Iteration  19
+29502
+Iteration  20
+16434
+Iteration  21
+29502
+Iteration  22
+16434
+Iteration  23
+29502
+Iteration  24
+16434
+Iteration  25
+29502
+Iteration  26
+16434
+Iteration  27
+29502
+Iteration  28
+16434
+Iteration  29
+29502
+Iteration  30
+16434
+Iteration  31
+29502
+Iteration  32
+16434
+Iteration  33
+29502
+Iteration  34
+16434
+Iteration  35
+29502
+Iteration  36
+16434
+Iteration  37
+29502
+Iteration  38
+16434
+Iteration  39
+29502
+Iteration  40
+16434
+Iteration  41
+29502
+Iteration  42
+16434
+Iteration  43
+29502
+Iteration  44
+16434
+Iteration  45
+29502
+Iteration  46
+16434
+Iteration  47
+29502
+Iteration  48
+16434
+Iteration  49
+29502
+Iteration  50
+16434
+Iteration  51
+29502
+Iteration  52
+16434
+Iteration  53
+29502
+Iteration  54
+16434
+Iteration  55
+29502
+Iteration  56
+16434
+Iteration  57
+29502
+Iteration  58
+16434
+Iteration  59
+29502
+Iteration  60
+16434
+Iteration  61
+29502
+Iteration  62
+16434
+Iteration  63
+29502
+Iteration  64
+16434
+Iteration  65
+29502
+Iteration  66
+16434
+Iteration  67
+29502
+Iteration  68
+16434
+Iteration  69
+29502
+Iteration  70
+16434
+Iteration  71
+29502
+Iteration  72
+16434
+Iteration  73
+29502
+Iteration  74
+16434
+Iteration  75
+29502
+Iteration  76
+16434
+Iteration  77
+29502
+Iteration  78
+16434
+Iteration  79
+29502
+Iteration  80
+16434
+Iteration  81
+29502
+Iteration  82
+16434
+Iteration  83
+29502
+Iteration  84
+16434
+Iteration  85
+29502
+Iteration  86
+16434
+Iteration  87
+29502
+Iteration  88
+16434
+Iteration  89
+29502
+Iteration  90
+16434
+Iteration  91
+29502
+Iteration  92
+16434
+Iteration  93
+29502
+Iteration  94
+16434
+Iteration  95
+29502
+Iteration  96
+16434
+Iteration  97
+29502
+Iteration  98
+16434
+Iteration  99
+29502
+Iteration  100
+16434
+Iteration  101
+29502
+Iteration  102
+16434
+Iteration  103
+29502
+Iteration  104
+16434
+Iteration  105
+29502
+Iteration  106
+16434
+Iteration  107
+29502
+Iteration  108
+16434
+Iteration  109
+29502
+Iteration  110
+16434
+Iteration  111
+29502
+Iteration  112
+16434
+Iteration  113
+29502
+Iteration  114
+16434
+Iteration  115
+29502
+Iteration  116
+16434
+Iteration  117
+29502
+Iteration  118
+16434
+Iteration  119
+29502
+Iteration  120
+16434
+Iteration  121
+29502
+Iteration  122
+16434
+Iteration  123
+29502
+Iteration  124
+16434
+Iteration  125
+29502
+Iteration  126
+16434
+Iteration  127
+29502
+Iteration  128
+16434
+Iteration  129
+29502
+Iteration  130
+16434
+Iteration  131
+29502
+Iteration  132
+16434
+Iteration  133
+29502
+Iteration  134
+16434
+Iteration  135
+29502
+Iteration  136
+16434
+Iteration  137
+29502
+Iteration  138
+16434
+Iteration  139
+29502
+Iteration  140
+16434
+Iteration  141
+29502
+Iteration  142
+16434
+Iteration  143
+29502
+Iteration  144
+16434
+Iteration  145
+29502
+Iteration  146
+16434
+Iteration  147
+29502
+Iteration  148
+16434
+Iteration  149
+29502
+Iteration  150
+16434
+Iteration  151
+29502
+Iteration  152
+16434
+Iteration  153
+29502
+Iteration  154
+16434
+Iteration  155
+29502
+Iteration  156
+16434
+Iteration  157
+29502
+Iteration  158
+16434
+Iteration  159
+29502
+Iteration  160
+16434
+Iteration  161
+29502
+Iteration  162
+16434
+Iteration  163
+29502
+Iteration  164
+16434
+Iteration  165
+29502
+Iteration  166
+16434
+Iteration  167
+29502
+Iteration  168
+16434
+Iteration  169
+29502
+Iteration  170
+16434
+Iteration  171
+29502
+Iteration  172
+16434
+Iteration  173
+29502
+Iteration  174
+16434
+Iteration  175
+29502
+Iteration  176
+16434
+Iteration  177
+29502
+Iteration  178
+16434
+Iteration  179
+29502
+Iteration  180
+16434
+Iteration  181
+29502
+Iteration  182
+16434
+Iteration  183
+29502
+Iteration  184
+16434
+Iteration  185
+29502
+Iteration  186
+16434
+Iteration  187
+29502
+Iteration  188
+16434
+Iteration  189
+29502
+Iteration  190
+16434
+Iteration  191
+29502
+Iteration  192
+16434
+Iteration  193
+29502
+Iteration  194
+16434
+Iteration  195
+29502
+Iteration  196
+16434
+Iteration  197
+29502
+Iteration  198
+16434
+Iteration  199
+29502
+Iteration  200
+16434
+Iteration  201
+29502
+Iteration  202
+16434
+Iteration  203
+29502
+Iteration  204
+16434
+Iteration  205
+29502
+Iteration  206
+16434
+Iteration  207
+29502
+Iteration  208
+16434
+Iteration  209
+29502
+Iteration  210
+16434
+Iteration  211
+29502
+Iteration  212
+16434
+Iteration  213
+29502
+Iteration  214
+16434
+Iteration  215
+29502
+Iteration  216
+16434
+Iteration  217
+29502
+Iteration  218
+16434
+Iteration  219
+29502
+Iteration  220
+16434
+Iteration  221
+29502
+Iteration  222
+16434
+Iteration  223
+29502
+Iteration  224
+16434
+Iteration  225
+29502
+Iteration  226
+16434
+Iteration  227
+29502
+Iteration  228
+16434
+Iteration  229
+29502
+Iteration  230
+16434
+Iteration  231
+29502
+Iteration  232
+16434
+Iteration  233
+29502
+Iteration  234
+16434
+Iteration  235
+29502
+Iteration  236
+16434
+Iteration  237
+29502
+Iteration  238
+16434
+Iteration  239
+29502
+Iteration  240
+16434
+Iteration  241
+29502
+Iteration  242
+16434
+Iteration  243
+29502
+Iteration  244
+16434
+Iteration  245
+29502
+Iteration  246
+16434
+Iteration  247
+29502
+Iteration  248
+16434
+Iteration  249
+29502
+Genetic Algorithms Complete
+optimized strategy:  [1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1]
+ALLC vs ALLC: [300, 300]
+ALLC vs ALLD: [0, 500]
+ALLC vs RAND: [189, 374]
+ALLC vs TFT: [300, 300]
+ALLC vs TF2T: [300, 300]
+ALLC vs STFT: [297, 302]
+ALLC vs GTFT: [300, 300]
+ALLC vs PAVLOV: [300, 300]
+ALLC vs APAVLOV: [300, 300]
+ALLC vs GRIM: [300, 300]
+ALLC vs EXT_ZD: [243, 338]
+ALLC vs GEN_ZD: [63, 458]
+ALLC vs GENETIC: [198, 368]
+ALLD vs ALLD: [100, 100]
+ALLD vs RAND: [304, 49]
+ALLD vs TFT: [104, 99]
+ALLD vs TF2T: [108, 98]
+ALLD vs STFT: [100, 100]
+ALLD vs GTFT: [144, 89]
+ALLD vs PAVLOV: [300, 50]
+ALLD vs APAVLOV: [104, 99]
+ALLD vs GRIM: [104, 99]
+ALLD vs EXT_ZD: [104, 99]
+ALLD vs GEN_ZD: [108, 98]
+ALLD vs GENETIC: [260, 60]
+RAND vs RAND: [217, 217]
+RAND vs TFT: [233, 228]
+RAND vs TF2T: [300, 190]
+RAND vs STFT: [219, 219]
+RAND vs GTFT: [119, 274]
+RAND vs PAVLOV: [230, 210]
+RAND vs APAVLOV: [236, 236]
+RAND vs GRIM: [99, 264]
+RAND vs EXT_ZD: [155, 245]
+RAND vs GEN_ZD: [104, 294]
+RAND vs GENETIC: [142, 282]
+TFT vs TFT: [300, 300]
+TFT vs TF2T: [300, 300]
+TFT vs STFT: [250, 250]
+TFT vs GTFT: [300, 300]
+TFT vs PAVLOV: [300, 300]
+TFT vs APAVLOV: [300, 300]
+TFT vs GRIM: [300, 300]
+TFT vs EXT_ZD: [140, 145]
+TFT vs GEN_ZD: [101, 106]
+TFT vs GENETIC: [220, 220]
+TF2T vs TF2T: [300, 300]
+TF2T vs STFT: [297, 302]
+TF2T vs GTFT: [300, 300]
+TF2T vs PAVLOV: [300, 300]
+TF2T vs APAVLOV: [300, 300]
+TF2T vs GRIM: [300, 300]
+TF2T vs EXT_ZD: [197, 232]
+TF2T vs GEN_ZD: [100, 110]
+TF2T vs GENETIC: [165, 335]
+STFT vs STFT: [100, 100]
+STFT vs GTFT: [133, 133]
+STFT vs PAVLOV: [203, 198]
+STFT vs APAVLOV: [250, 250]
+STFT vs GRIM: [103, 103]
+STFT vs EXT_ZD: [107, 107]
+STFT vs GEN_ZD: [107, 107]
+STFT vs GENETIC: [220, 220]
+GTFT vs GTFT: [300, 300]
+GTFT vs PAVLOV: [300, 300]
+GTFT vs APAVLOV: [300, 300]
+GTFT vs GRIM: [300, 300]
+GTFT vs EXT_ZD: [118, 138]
+GTFT vs GEN_ZD: [96, 146]
+GTFT vs GENETIC: [282, 92]
+PAVLOV vs PAVLOV: [300, 300]
+PAVLOV vs APAVLOV: [300, 300]
+PAVLOV vs GRIM: [300, 300]
+PAVLOV vs EXT_ZD: [132, 257]
+PAVLOV vs GEN_ZD: [127, 257]
+PAVLOV vs GENETIC: [225, 225]
+APAVLOV vs APAVLOV: [300, 300]
+APAVLOV vs GRIM: [300, 300]
+APAVLOV vs EXT_ZD: [109, 114]
+APAVLOV vs GEN_ZD: [101, 106]
+APAVLOV vs GENETIC: [220, 220]
+GRIM vs GRIM: [300, 300]
+GRIM vs EXT_ZD: [139, 144]
+GRIM vs GEN_ZD: [103, 108]
+GRIM vs GENETIC: [299, 54]
+EXT_ZD vs EXT_ZD: [103, 103]
+EXT_ZD vs GEN_ZD: [101, 106]
+EXT_ZD vs GENETIC: [256, 151]
+GEN_ZD vs GEN_ZD: [106, 106]
+GEN_ZD vs GENETIC: [259, 104]
+GENETIC vs GENETIC: [202, 202]
+{'ALLC': (0, 8, 6, 3390),
+ 'ALLD': (11, 3, 0, 2440),
+ 'APAVLOV': (0, 11, 3, 3415),
+ 'EXT_ZD': (9, 3, 2, 2382),
+ 'GENETIC': (3, 6, 5, 2735),
+ 'GEN_ZD': (10, 3, 1, 2367),
+ 'GRIM': (2, 9, 3, 3407),
+ 'GTFT': (2, 9, 3, 3392),
+ 'PAVLOV': (0, 9, 5, 3342),
+ 'RAND': (4, 4, 6, 2694),
+ 'STFT': (3, 11, 0, 2496),
+ 'TF2T': (0, 8, 6, 3447),
+ 'TFT': (0, 10, 4, 3438)}

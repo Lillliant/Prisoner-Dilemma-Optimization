@@ -1,0 +1,1107 @@
+Genetic Algorithm
+Iteration  0
+13026
+Iteration  1
+12610
+Iteration  2
+13374
+Iteration  3
+13176
+Iteration  4
+12846
+Iteration  5
+14189
+Iteration  6
+14029
+Iteration  7
+12795
+Iteration  8
+9832
+Iteration  9
+11980
+Iteration  10
+9996
+Iteration  11
+14700
+Iteration  12
+8134
+Iteration  13
+14700
+Iteration  14
+8134
+Iteration  15
+14700
+Iteration  16
+8134
+Iteration  17
+14700
+Iteration  18
+8134
+Iteration  19
+14700
+Iteration  20
+8134
+Iteration  21
+14700
+Iteration  22
+8134
+Iteration  23
+14700
+Iteration  24
+8134
+Iteration  25
+14700
+Iteration  26
+8134
+Iteration  27
+14700
+Iteration  28
+8134
+Iteration  29
+14700
+Iteration  30
+8134
+Iteration  31
+14700
+Iteration  32
+8134
+Iteration  33
+14700
+Iteration  34
+8134
+Iteration  35
+14700
+Iteration  36
+8134
+Iteration  37
+14700
+Iteration  38
+8134
+Iteration  39
+14700
+Iteration  40
+8134
+Iteration  41
+14700
+Iteration  42
+8134
+Iteration  43
+14700
+Iteration  44
+8134
+Iteration  45
+14700
+Iteration  46
+8134
+Iteration  47
+14700
+Iteration  48
+8134
+Iteration  49
+14700
+Iteration  50
+8134
+Iteration  51
+14700
+Iteration  52
+8134
+Iteration  53
+14700
+Iteration  54
+8134
+Iteration  55
+14700
+Iteration  56
+8134
+Iteration  57
+14700
+Iteration  58
+8134
+Iteration  59
+14700
+Iteration  60
+8134
+Iteration  61
+14700
+Iteration  62
+8134
+Iteration  63
+14700
+Iteration  64
+8134
+Iteration  65
+14700
+Iteration  66
+8134
+Iteration  67
+14700
+Iteration  68
+8134
+Iteration  69
+14700
+Iteration  70
+8134
+Iteration  71
+14700
+Iteration  72
+8134
+Iteration  73
+14700
+Iteration  74
+8134
+Iteration  75
+14700
+Iteration  76
+8134
+Iteration  77
+14700
+Iteration  78
+8134
+Iteration  79
+14700
+Iteration  80
+8134
+Iteration  81
+14700
+Iteration  82
+8134
+Iteration  83
+14700
+Iteration  84
+8134
+Iteration  85
+14700
+Iteration  86
+8134
+Iteration  87
+14700
+Iteration  88
+8134
+Iteration  89
+14700
+Iteration  90
+8134
+Iteration  91
+14700
+Iteration  92
+8134
+Iteration  93
+14700
+Iteration  94
+8134
+Iteration  95
+14700
+Iteration  96
+8134
+Iteration  97
+14700
+Iteration  98
+8134
+Iteration  99
+14700
+Iteration  100
+8134
+Iteration  101
+14700
+Iteration  102
+8134
+Iteration  103
+14700
+Iteration  104
+8134
+Iteration  105
+14700
+Iteration  106
+8134
+Iteration  107
+14700
+Iteration  108
+8134
+Iteration  109
+14700
+Iteration  110
+8134
+Iteration  111
+14700
+Iteration  112
+8134
+Iteration  113
+14700
+Iteration  114
+8134
+Iteration  115
+14700
+Iteration  116
+8134
+Iteration  117
+14700
+Iteration  118
+8134
+Iteration  119
+14700
+Iteration  120
+8134
+Iteration  121
+14700
+Iteration  122
+8134
+Iteration  123
+14700
+Iteration  124
+8134
+Iteration  125
+14700
+Iteration  126
+8134
+Iteration  127
+14700
+Iteration  128
+8134
+Iteration  129
+14700
+Iteration  130
+8134
+Iteration  131
+14700
+Iteration  132
+8134
+Iteration  133
+14700
+Iteration  134
+8134
+Iteration  135
+14700
+Iteration  136
+8134
+Iteration  137
+14700
+Iteration  138
+8134
+Iteration  139
+14700
+Iteration  140
+8134
+Iteration  141
+14700
+Iteration  142
+8134
+Iteration  143
+14700
+Iteration  144
+8134
+Iteration  145
+14700
+Iteration  146
+8134
+Iteration  147
+14700
+Iteration  148
+8134
+Iteration  149
+14700
+Iteration  150
+8134
+Iteration  151
+14700
+Iteration  152
+8134
+Iteration  153
+14700
+Iteration  154
+8134
+Iteration  155
+14700
+Iteration  156
+8134
+Iteration  157
+14700
+Iteration  158
+8134
+Iteration  159
+14700
+Iteration  160
+8134
+Iteration  161
+14700
+Iteration  162
+8134
+Iteration  163
+14700
+Iteration  164
+8134
+Iteration  165
+14700
+Iteration  166
+8134
+Iteration  167
+14700
+Iteration  168
+8134
+Iteration  169
+14700
+Iteration  170
+8134
+Iteration  171
+14700
+Iteration  172
+8134
+Iteration  173
+14700
+Iteration  174
+8134
+Iteration  175
+14700
+Iteration  176
+8134
+Iteration  177
+14700
+Iteration  178
+8134
+Iteration  179
+14700
+Iteration  180
+8134
+Iteration  181
+14700
+Iteration  182
+8134
+Iteration  183
+14700
+Iteration  184
+8134
+Iteration  185
+14700
+Iteration  186
+8134
+Iteration  187
+14700
+Iteration  188
+8134
+Iteration  189
+14700
+Iteration  190
+8134
+Iteration  191
+14700
+Iteration  192
+8134
+Iteration  193
+14700
+Iteration  194
+8134
+Iteration  195
+14700
+Iteration  196
+8134
+Iteration  197
+14700
+Iteration  198
+8134
+Iteration  199
+14700
+Iteration  200
+8134
+Iteration  201
+14700
+Iteration  202
+8134
+Iteration  203
+14700
+Iteration  204
+8134
+Iteration  205
+14700
+Iteration  206
+8134
+Iteration  207
+14700
+Iteration  208
+8134
+Iteration  209
+14700
+Iteration  210
+8134
+Iteration  211
+14700
+Iteration  212
+8134
+Iteration  213
+14700
+Iteration  214
+8134
+Iteration  215
+14700
+Iteration  216
+8134
+Iteration  217
+14700
+Iteration  218
+8134
+Iteration  219
+14700
+Iteration  220
+8134
+Iteration  221
+14700
+Iteration  222
+8134
+Iteration  223
+14700
+Iteration  224
+8134
+Iteration  225
+14700
+Iteration  226
+8134
+Iteration  227
+14700
+Iteration  228
+8134
+Iteration  229
+14700
+Iteration  230
+8134
+Iteration  231
+14700
+Iteration  232
+8134
+Iteration  233
+14700
+Iteration  234
+8134
+Iteration  235
+14700
+Iteration  236
+8134
+Iteration  237
+14700
+Iteration  238
+8134
+Iteration  239
+14700
+Iteration  240
+8134
+Iteration  241
+14700
+Iteration  242
+8134
+Iteration  243
+14700
+Iteration  244
+8134
+Iteration  245
+14700
+Iteration  246
+8134
+Iteration  247
+14700
+Iteration  248
+8134
+Iteration  249
+14700
+Iteration  250
+8134
+Iteration  251
+14700
+Iteration  252
+8134
+Iteration  253
+14700
+Iteration  254
+8134
+Iteration  255
+14700
+Iteration  256
+8134
+Iteration  257
+14700
+Iteration  258
+8134
+Iteration  259
+14700
+Iteration  260
+8134
+Iteration  261
+14700
+Iteration  262
+8134
+Iteration  263
+14700
+Iteration  264
+8134
+Iteration  265
+14700
+Iteration  266
+8134
+Iteration  267
+14700
+Iteration  268
+8134
+Iteration  269
+14700
+Iteration  270
+8134
+Iteration  271
+14700
+Iteration  272
+8134
+Iteration  273
+14700
+Iteration  274
+8134
+Iteration  275
+14700
+Iteration  276
+8134
+Iteration  277
+14700
+Iteration  278
+8134
+Iteration  279
+14700
+Iteration  280
+8134
+Iteration  281
+14700
+Iteration  282
+8134
+Iteration  283
+14700
+Iteration  284
+8134
+Iteration  285
+14700
+Iteration  286
+8134
+Iteration  287
+14700
+Iteration  288
+8134
+Iteration  289
+14700
+Iteration  290
+8134
+Iteration  291
+14700
+Iteration  292
+8134
+Iteration  293
+14700
+Iteration  294
+8134
+Iteration  295
+14700
+Iteration  296
+8134
+Iteration  297
+14700
+Iteration  298
+8134
+Iteration  299
+14700
+Iteration  300
+8134
+Iteration  301
+14700
+Iteration  302
+8134
+Iteration  303
+14700
+Iteration  304
+8134
+Iteration  305
+14700
+Iteration  306
+8134
+Iteration  307
+14700
+Iteration  308
+8134
+Iteration  309
+14700
+Iteration  310
+8134
+Iteration  311
+14700
+Iteration  312
+8134
+Iteration  313
+14700
+Iteration  314
+8134
+Iteration  315
+14700
+Iteration  316
+8134
+Iteration  317
+14700
+Iteration  318
+8134
+Iteration  319
+14700
+Iteration  320
+8134
+Iteration  321
+14700
+Iteration  322
+8134
+Iteration  323
+14700
+Iteration  324
+8134
+Iteration  325
+14700
+Iteration  326
+8134
+Iteration  327
+14700
+Iteration  328
+8134
+Iteration  329
+14700
+Iteration  330
+8134
+Iteration  331
+14700
+Iteration  332
+8134
+Iteration  333
+14700
+Iteration  334
+8134
+Iteration  335
+14700
+Iteration  336
+8134
+Iteration  337
+14700
+Iteration  338
+8134
+Iteration  339
+14700
+Iteration  340
+8134
+Iteration  341
+14700
+Iteration  342
+8134
+Iteration  343
+14700
+Iteration  344
+8134
+Iteration  345
+14700
+Iteration  346
+8134
+Iteration  347
+14700
+Iteration  348
+8134
+Iteration  349
+14700
+Iteration  350
+8134
+Iteration  351
+14700
+Iteration  352
+8134
+Iteration  353
+14700
+Iteration  354
+8134
+Iteration  355
+14700
+Iteration  356
+8134
+Iteration  357
+14700
+Iteration  358
+8134
+Iteration  359
+14700
+Iteration  360
+8134
+Iteration  361
+14700
+Iteration  362
+8134
+Iteration  363
+14700
+Iteration  364
+8134
+Iteration  365
+14700
+Iteration  366
+8134
+Iteration  367
+14700
+Iteration  368
+8134
+Iteration  369
+14700
+Iteration  370
+8134
+Iteration  371
+14700
+Iteration  372
+8134
+Iteration  373
+14700
+Iteration  374
+8134
+Iteration  375
+14700
+Iteration  376
+8134
+Iteration  377
+14700
+Iteration  378
+8134
+Iteration  379
+14700
+Iteration  380
+8134
+Iteration  381
+14700
+Iteration  382
+8134
+Iteration  383
+14700
+Iteration  384
+8134
+Iteration  385
+14700
+Iteration  386
+8134
+Iteration  387
+14700
+Iteration  388
+8134
+Iteration  389
+14700
+Iteration  390
+8134
+Iteration  391
+14700
+Iteration  392
+8134
+Iteration  393
+14700
+Iteration  394
+8134
+Iteration  395
+14700
+Iteration  396
+8134
+Iteration  397
+14700
+Iteration  398
+8134
+Iteration  399
+14700
+Iteration  400
+8134
+Iteration  401
+14700
+Iteration  402
+8134
+Iteration  403
+14700
+Iteration  404
+8134
+Iteration  405
+14700
+Iteration  406
+8134
+Iteration  407
+14700
+Iteration  408
+8134
+Iteration  409
+14700
+Iteration  410
+8134
+Iteration  411
+14700
+Iteration  412
+8134
+Iteration  413
+14700
+Iteration  414
+8134
+Iteration  415
+14700
+Iteration  416
+8134
+Iteration  417
+14700
+Iteration  418
+8134
+Iteration  419
+14700
+Iteration  420
+8134
+Iteration  421
+14700
+Iteration  422
+8134
+Iteration  423
+14700
+Iteration  424
+8134
+Iteration  425
+14700
+Iteration  426
+8134
+Iteration  427
+14700
+Iteration  428
+8134
+Iteration  429
+14700
+Iteration  430
+8134
+Iteration  431
+14700
+Iteration  432
+8134
+Iteration  433
+14700
+Iteration  434
+8134
+Iteration  435
+14700
+Iteration  436
+8134
+Iteration  437
+14700
+Iteration  438
+8134
+Iteration  439
+14700
+Iteration  440
+8134
+Iteration  441
+14700
+Iteration  442
+8134
+Iteration  443
+14700
+Iteration  444
+8134
+Iteration  445
+14700
+Iteration  446
+8134
+Iteration  447
+14700
+Iteration  448
+8134
+Iteration  449
+14700
+Iteration  450
+8134
+Iteration  451
+14700
+Iteration  452
+8134
+Iteration  453
+14700
+Iteration  454
+8134
+Iteration  455
+14700
+Iteration  456
+8134
+Iteration  457
+14700
+Iteration  458
+8134
+Iteration  459
+14700
+Iteration  460
+8134
+Iteration  461
+14700
+Iteration  462
+8134
+Iteration  463
+14700
+Iteration  464
+8134
+Iteration  465
+14700
+Iteration  466
+8134
+Iteration  467
+14700
+Iteration  468
+8134
+Iteration  469
+14700
+Iteration  470
+8134
+Iteration  471
+14700
+Iteration  472
+8134
+Iteration  473
+14700
+Iteration  474
+8134
+Iteration  475
+14700
+Iteration  476
+8134
+Iteration  477
+14700
+Iteration  478
+8134
+Iteration  479
+14700
+Iteration  480
+8134
+Iteration  481
+14700
+Iteration  482
+8134
+Iteration  483
+14700
+Iteration  484
+8134
+Iteration  485
+14700
+Iteration  486
+8134
+Iteration  487
+14700
+Iteration  488
+8134
+Iteration  489
+14700
+Iteration  490
+8134
+Iteration  491
+14700
+Iteration  492
+8134
+Iteration  493
+14700
+Iteration  494
+8134
+Iteration  495
+14700
+Iteration  496
+8134
+Iteration  497
+14700
+Iteration  498
+8134
+Iteration  499
+14700
+Genetic Algorithms Complete
+optimized strategy:  [1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1]
+ALLC vs ALLC: [300, 300]
+ALLC vs ALLD: [0, 500]
+ALLC vs RAND: [153, 398]
+ALLC vs TFT: [300, 300]
+ALLC vs TF2T: [300, 300]
+ALLC vs STFT: [297, 302]
+ALLC vs GTFT: [300, 300]
+ALLC vs PAVLOV: [300, 300]
+ALLC vs APAVLOV: [300, 300]
+ALLC vs GRIM: [300, 300]
+ALLC vs EXT_ZD: [240, 340]
+ALLC vs GEN_ZD: [87, 442]
+ALLC vs GENETIC: [150, 400]
+ALLD vs ALLD: [100, 100]
+ALLD vs RAND: [292, 52]
+ALLD vs TFT: [104, 99]
+ALLD vs TF2T: [108, 98]
+ALLD vs STFT: [100, 100]
+ALLD vs GTFT: [144, 89]
+ALLD vs PAVLOV: [300, 50]
+ALLD vs APAVLOV: [104, 99]
+ALLD vs GRIM: [104, 99]
+ALLD vs EXT_ZD: [120, 95]
+ALLD vs GEN_ZD: [116, 96]
+ALLD vs GENETIC: [304, 49]
+RAND vs RAND: [227, 227]
+RAND vs TFT: [213, 208]
+RAND vs TF2T: [328, 188]
+RAND vs STFT: [228, 228]
+RAND vs GTFT: [108, 253]
+RAND vs PAVLOV: [219, 239]
+RAND vs APAVLOV: [228, 228]
+RAND vs GRIM: [80, 250]
+RAND vs EXT_ZD: [152, 272]
+RAND vs GEN_ZD: [90, 280]
+RAND vs GENETIC: [211, 221]
+TFT vs TFT: [300, 300]
+TFT vs TF2T: [300, 300]
+TFT vs STFT: [250, 250]
+TFT vs GTFT: [300, 300]
+TFT vs PAVLOV: [300, 300]
+TFT vs APAVLOV: [300, 300]
+TFT vs GRIM: [300, 300]
+TFT vs EXT_ZD: [111, 116]
+TFT vs GEN_ZD: [101, 106]
+TFT vs GENETIC: [200, 200]
+TF2T vs TF2T: [300, 300]
+TF2T vs STFT: [297, 302]
+TF2T vs GTFT: [300, 300]
+TF2T vs PAVLOV: [300, 300]
+TF2T vs APAVLOV: [300, 300]
+TF2T vs GRIM: [300, 300]
+TF2T vs EXT_ZD: [249, 269]
+TF2T vs GEN_ZD: [102, 112]
+TF2T vs GENETIC: [165, 330]
+STFT vs STFT: [100, 100]
+STFT vs GTFT: [133, 133]
+STFT vs PAVLOV: [203, 198]
+STFT vs APAVLOV: [250, 250]
+STFT vs GRIM: [103, 103]
+STFT vs EXT_ZD: [103, 103]
+STFT vs GEN_ZD: [105, 105]
+STFT vs GENETIC: [200, 200]
+GTFT vs GTFT: [300, 300]
+GTFT vs PAVLOV: [300, 300]
+GTFT vs APAVLOV: [300, 300]
+GTFT vs GRIM: [300, 300]
+GTFT vs EXT_ZD: [102, 142]
+GTFT vs GEN_ZD: [97, 152]
+GTFT vs GENETIC: [284, 89]
+PAVLOV vs PAVLOV: [300, 300]
+PAVLOV vs APAVLOV: [300, 300]
+PAVLOV vs GRIM: [300, 300]
+PAVLOV vs EXT_ZD: [200, 225]
+PAVLOV vs GEN_ZD: [111, 261]
+PAVLOV vs GENETIC: [50, 300]
+APAVLOV vs APAVLOV: [300, 300]
+APAVLOV vs GRIM: [300, 300]
+APAVLOV vs EXT_ZD: [121, 126]
+APAVLOV vs GEN_ZD: [120, 125]
+APAVLOV vs GENETIC: [200, 200]
+GRIM vs GRIM: [300, 300]
+GRIM vs EXT_ZD: [101, 106]
+GRIM vs GEN_ZD: [101, 106]
+GRIM vs GENETIC: [279, 119]
+EXT_ZD vs EXT_ZD: [103, 103]
+EXT_ZD vs GEN_ZD: [106, 116]
+EXT_ZD vs GENETIC: [230, 175]
+GEN_ZD vs GEN_ZD: [105, 105]
+GEN_ZD vs GENETIC: [280, 90]
+GENETIC vs GENETIC: [236, 236]
+{'ALLC': (0, 8, 6, 3327),
+ 'ALLD': (11, 3, 0, 2496),
+ 'APAVLOV': (0, 11, 3, 3418),
+ 'EXT_ZD': (9, 3, 2, 2336),
+ 'GENETIC': (4, 5, 5, 2845),
+ 'GEN_ZD': (10, 3, 1, 2391),
+ 'GRIM': (2, 9, 3, 3333),
+ 'GTFT': (2, 9, 3, 3358),
+ 'PAVLOV': (1, 8, 5, 3248),
+ 'RAND': (3, 4, 7, 2761),
+ 'STFT': (3, 11, 0, 2479),
+ 'TF2T': (0, 8, 6, 3499),
+ 'TFT': (0, 10, 4, 3369)}

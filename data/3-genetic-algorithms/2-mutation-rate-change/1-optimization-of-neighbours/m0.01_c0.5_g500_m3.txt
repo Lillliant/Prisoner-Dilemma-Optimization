@@ -1,0 +1,1950 @@
+Genetic Algorithm
+Iteration  0
+31836
+Iteration  1
+27323
+Iteration  2
+27165
+Iteration  3
+27485
+Iteration  4
+24684
+Iteration  5
+27264
+Iteration  6
+22572
+Iteration  7
+29700
+Iteration  8
+22968
+Iteration  9
+29700
+Iteration  10
+22968
+Iteration  11
+29700
+Iteration  12
+22968
+Iteration  13
+29700
+Iteration  14
+22968
+Iteration  15
+29700
+Iteration  16
+22968
+Iteration  17
+29700
+Iteration  18
+22968
+Iteration  19
+29700
+Iteration  20
+22968
+Iteration  21
+29700
+Iteration  22
+22968
+Iteration  23
+29700
+Iteration  24
+22968
+Iteration  25
+29700
+Iteration  26
+22968
+Iteration  27
+29700
+Iteration  28
+22968
+Iteration  29
+29700
+Iteration  30
+22968
+Iteration  31
+29700
+Iteration  32
+22968
+Iteration  33
+29700
+Iteration  34
+22968
+Iteration  35
+29700
+Iteration  36
+22968
+Iteration  37
+29700
+Iteration  38
+22968
+Iteration  39
+29700
+Iteration  40
+22968
+Iteration  41
+29700
+Iteration  42
+22968
+Iteration  43
+29700
+Iteration  44
+22968
+Iteration  45
+29700
+Iteration  46
+22968
+Iteration  47
+29700
+Iteration  48
+22968
+Iteration  49
+29700
+Iteration  50
+22968
+Iteration  51
+29700
+Iteration  52
+22968
+Iteration  53
+29700
+Iteration  54
+22968
+Iteration  55
+29700
+Iteration  56
+22968
+Iteration  57
+29700
+Iteration  58
+22968
+Iteration  59
+29700
+Iteration  60
+22968
+Iteration  61
+29700
+Iteration  62
+22968
+Iteration  63
+29700
+Iteration  64
+22968
+Iteration  65
+29700
+Iteration  66
+22968
+Iteration  67
+29700
+Iteration  68
+22968
+Iteration  69
+29700
+Iteration  70
+22968
+Iteration  71
+29700
+Iteration  72
+22968
+Iteration  73
+29700
+Iteration  74
+22968
+Iteration  75
+29700
+Iteration  76
+22968
+Iteration  77
+29700
+Iteration  78
+22968
+Iteration  79
+29700
+Iteration  80
+22968
+Iteration  81
+29700
+Iteration  82
+22968
+Iteration  83
+29700
+Iteration  84
+22968
+Iteration  85
+29700
+Iteration  86
+22968
+Iteration  87
+29700
+Iteration  88
+22968
+Iteration  89
+29700
+Iteration  90
+22968
+Iteration  91
+29700
+Iteration  92
+22968
+Iteration  93
+29700
+Iteration  94
+22968
+Iteration  95
+29700
+Iteration  96
+22968
+Iteration  97
+29700
+Iteration  98
+22968
+Iteration  99
+29700
+Iteration  100
+22968
+Iteration  101
+29700
+Iteration  102
+22968
+Iteration  103
+29700
+Iteration  104
+22968
+Iteration  105
+29700
+Iteration  106
+22968
+Iteration  107
+29700
+Iteration  108
+22968
+Iteration  109
+29700
+Iteration  110
+22968
+Iteration  111
+29700
+Iteration  112
+22968
+Iteration  113
+29700
+Iteration  114
+22968
+Iteration  115
+29700
+Iteration  116
+22968
+Iteration  117
+29700
+Iteration  118
+22968
+Iteration  119
+29700
+Iteration  120
+22968
+Iteration  121
+29700
+Iteration  122
+22968
+Iteration  123
+29700
+Iteration  124
+22968
+Iteration  125
+29700
+Iteration  126
+22968
+Iteration  127
+29700
+Iteration  128
+22968
+Iteration  129
+29700
+Iteration  130
+22968
+Iteration  131
+29700
+Iteration  132
+22968
+Iteration  133
+29700
+Iteration  134
+22968
+Iteration  135
+29700
+Iteration  136
+22968
+Iteration  137
+29700
+Iteration  138
+22968
+Iteration  139
+29700
+Iteration  140
+22968
+Iteration  141
+29700
+Iteration  142
+22968
+Iteration  143
+29700
+Iteration  144
+22968
+Iteration  145
+29700
+Iteration  146
+22968
+Iteration  147
+29700
+Iteration  148
+22968
+Iteration  149
+29700
+Iteration  150
+22968
+Iteration  151
+29700
+Iteration  152
+22968
+Iteration  153
+29700
+Iteration  154
+22968
+Iteration  155
+29700
+Iteration  156
+22968
+Iteration  157
+29700
+Iteration  158
+22968
+Iteration  159
+29700
+Iteration  160
+22968
+Iteration  161
+29700
+Iteration  162
+22968
+Iteration  163
+29700
+Iteration  164
+22968
+Iteration  165
+29700
+Iteration  166
+22968
+Iteration  167
+29700
+Iteration  168
+22968
+Iteration  169
+29700
+Iteration  170
+22968
+Iteration  171
+29700
+Iteration  172
+22968
+Iteration  173
+29700
+Iteration  174
+22968
+Iteration  175
+29700
+Iteration  176
+22968
+Iteration  177
+29700
+Iteration  178
+22968
+Iteration  179
+29700
+Iteration  180
+22968
+Iteration  181
+29700
+Iteration  182
+22968
+Iteration  183
+29700
+Iteration  184
+22968
+Iteration  185
+29700
+Iteration  186
+22968
+Iteration  187
+29700
+Iteration  188
+22968
+Iteration  189
+29700
+Iteration  190
+22968
+Iteration  191
+29700
+Iteration  192
+22968
+Iteration  193
+29700
+Iteration  194
+22968
+Iteration  195
+29700
+Iteration  196
+22968
+Iteration  197
+29700
+Iteration  198
+22968
+Iteration  199
+29700
+Iteration  200
+22968
+Iteration  201
+29700
+Iteration  202
+22968
+Iteration  203
+29700
+Iteration  204
+22968
+Iteration  205
+29700
+Iteration  206
+22968
+Iteration  207
+29700
+Iteration  208
+22968
+Iteration  209
+29700
+Iteration  210
+22968
+Iteration  211
+29700
+Iteration  212
+22968
+Iteration  213
+29700
+Iteration  214
+22968
+Iteration  215
+29700
+Iteration  216
+22968
+Iteration  217
+29700
+Iteration  218
+22968
+Iteration  219
+29700
+Iteration  220
+22968
+Iteration  221
+29700
+Iteration  222
+22968
+Iteration  223
+29700
+Iteration  224
+22968
+Iteration  225
+29700
+Iteration  226
+22968
+Iteration  227
+29700
+Iteration  228
+22968
+Iteration  229
+29700
+Iteration  230
+22968
+Iteration  231
+29700
+Iteration  232
+22968
+Iteration  233
+29700
+Iteration  234
+22968
+Iteration  235
+29700
+Iteration  236
+22968
+Iteration  237
+29700
+Iteration  238
+22968
+Iteration  239
+29700
+Iteration  240
+22968
+Iteration  241
+29700
+Iteration  242
+22968
+Iteration  243
+29700
+Iteration  244
+22968
+Iteration  245
+29700
+Iteration  246
+22968
+Iteration  247
+29700
+Iteration  248
+22968
+Iteration  249
+29700
+Iteration  250
+22968
+Iteration  251
+29700
+Iteration  252
+22968
+Iteration  253
+29700
+Iteration  254
+22968
+Iteration  255
+29700
+Iteration  256
+22968
+Iteration  257
+29700
+Iteration  258
+22968
+Iteration  259
+29700
+Iteration  260
+22968
+Iteration  261
+29700
+Iteration  262
+22968
+Iteration  263
+29700
+Iteration  264
+22968
+Iteration  265
+29700
+Iteration  266
+22968
+Iteration  267
+29700
+Iteration  268
+22968
+Iteration  269
+29700
+Iteration  270
+22968
+Iteration  271
+29700
+Iteration  272
+22968
+Iteration  273
+29700
+Iteration  274
+22968
+Iteration  275
+29700
+Iteration  276
+22968
+Iteration  277
+29700
+Iteration  278
+22968
+Iteration  279
+29700
+Iteration  280
+22968
+Iteration  281
+29700
+Iteration  282
+22968
+Iteration  283
+29700
+Iteration  284
+22968
+Iteration  285
+29700
+Iteration  286
+22968
+Iteration  287
+29700
+Iteration  288
+22968
+Iteration  289
+29700
+Iteration  290
+22968
+Iteration  291
+29700
+Iteration  292
+22968
+Iteration  293
+29700
+Iteration  294
+22968
+Iteration  295
+29700
+Iteration  296
+22968
+Iteration  297
+29700
+Iteration  298
+22968
+Iteration  299
+29700
+Iteration  300
+22968
+Iteration  301
+29700
+Iteration  302
+22968
+Iteration  303
+29700
+Iteration  304
+22968
+Iteration  305
+29700
+Iteration  306
+22968
+Iteration  307
+29700
+Iteration  308
+22968
+Iteration  309
+29700
+Iteration  310
+22968
+Iteration  311
+29700
+Iteration  312
+22968
+Iteration  313
+29700
+Iteration  314
+22968
+Iteration  315
+29700
+Iteration  316
+22968
+Iteration  317
+29700
+Iteration  318
+22968
+Iteration  319
+29700
+Iteration  320
+22968
+Iteration  321
+29700
+Iteration  322
+22968
+Iteration  323
+29700
+Iteration  324
+22968
+Iteration  325
+29700
+Iteration  326
+22968
+Iteration  327
+29700
+Iteration  328
+22968
+Iteration  329
+29700
+Iteration  330
+22968
+Iteration  331
+29700
+Iteration  332
+22968
+Iteration  333
+29700
+Iteration  334
+22968
+Iteration  335
+29700
+Iteration  336
+22968
+Iteration  337
+29700
+Iteration  338
+22968
+Iteration  339
+29700
+Iteration  340
+22968
+Iteration  341
+29700
+Iteration  342
+22968
+Iteration  343
+29700
+Iteration  344
+22968
+Iteration  345
+29700
+Iteration  346
+22968
+Iteration  347
+29700
+Iteration  348
+22968
+Iteration  349
+29700
+Iteration  350
+22968
+Iteration  351
+29700
+Iteration  352
+22968
+Iteration  353
+29700
+Iteration  354
+22968
+Iteration  355
+29700
+Iteration  356
+22968
+Iteration  357
+29700
+Iteration  358
+22968
+Iteration  359
+29700
+Iteration  360
+22968
+Iteration  361
+29700
+Iteration  362
+22968
+Iteration  363
+29700
+Iteration  364
+22968
+Iteration  365
+29700
+Iteration  366
+22968
+Iteration  367
+29700
+Iteration  368
+22968
+Iteration  369
+29700
+Iteration  370
+22968
+Iteration  371
+29700
+Iteration  372
+22968
+Iteration  373
+29700
+Iteration  374
+22968
+Iteration  375
+29700
+Iteration  376
+22968
+Iteration  377
+29700
+Iteration  378
+22968
+Iteration  379
+29700
+Iteration  380
+22968
+Iteration  381
+29700
+Iteration  382
+22968
+Iteration  383
+29700
+Iteration  384
+22968
+Iteration  385
+29700
+Iteration  386
+22968
+Iteration  387
+29700
+Iteration  388
+22968
+Iteration  389
+29700
+Iteration  390
+22968
+Iteration  391
+29700
+Iteration  392
+22968
+Iteration  393
+29700
+Iteration  394
+22968
+Iteration  395
+29700
+Iteration  396
+22968
+Iteration  397
+29700
+Iteration  398
+22968
+Iteration  399
+29700
+Iteration  400
+22968
+Iteration  401
+29700
+Iteration  402
+22968
+Iteration  403
+29700
+Iteration  404
+22968
+Iteration  405
+29700
+Iteration  406
+22968
+Iteration  407
+29700
+Iteration  408
+22968
+Iteration  409
+29700
+Iteration  410
+22968
+Iteration  411
+29700
+Iteration  412
+22968
+Iteration  413
+29700
+Iteration  414
+22968
+Iteration  415
+29700
+Iteration  416
+22968
+Iteration  417
+29700
+Iteration  418
+22968
+Iteration  419
+29700
+Iteration  420
+22968
+Iteration  421
+29700
+Iteration  422
+22968
+Iteration  423
+29700
+Iteration  424
+22968
+Iteration  425
+29700
+Iteration  426
+22968
+Iteration  427
+29700
+Iteration  428
+22968
+Iteration  429
+29700
+Iteration  430
+22968
+Iteration  431
+29700
+Iteration  432
+22968
+Iteration  433
+29700
+Iteration  434
+22968
+Iteration  435
+29700
+Iteration  436
+22968
+Iteration  437
+29700
+Iteration  438
+22968
+Iteration  439
+29700
+Iteration  440
+22968
+Iteration  441
+29700
+Iteration  442
+22968
+Iteration  443
+29700
+Iteration  444
+22968
+Iteration  445
+29700
+Iteration  446
+22968
+Iteration  447
+29700
+Iteration  448
+22968
+Iteration  449
+29700
+Iteration  450
+22968
+Iteration  451
+29700
+Iteration  452
+22968
+Iteration  453
+29700
+Iteration  454
+22968
+Iteration  455
+29700
+Iteration  456
+22968
+Iteration  457
+29700
+Iteration  458
+22968
+Iteration  459
+29700
+Iteration  460
+22968
+Iteration  461
+29700
+Iteration  462
+22968
+Iteration  463
+---
+22968
+Iteration  43
+29700
+Iteration  44
+22968
+Iteration  45
+29700
+Iteration  46
+22968
+Iteration  47
+29700
+Iteration  48
+22968
+Iteration  49
+29700
+Iteration  50
+22968
+Iteration  51
+29700
+Iteration  52
+22968
+Iteration  53
+29700
+Iteration  54
+22968
+Iteration  55
+29700
+Iteration  56
+22968
+Iteration  57
+29700
+Iteration  58
+22968
+Iteration  59
+29700
+Iteration  60
+22968
+Iteration  61
+29700
+Iteration  62
+22968
+Iteration  63
+29700
+Iteration  64
+22968
+Iteration  65
+29700
+Iteration  66
+22968
+Iteration  67
+29700
+Iteration  68
+22968
+Iteration  69
+29700
+Iteration  70
+22968
+Iteration  71
+29700
+Iteration  72
+22968
+Iteration  73
+29700
+Iteration  74
+22968
+Iteration  75
+29700
+Iteration  76
+22968
+Iteration  77
+29700
+Iteration  78
+22968
+Iteration  79
+29700
+Iteration  80
+22968
+Iteration  81
+29700
+Iteration  82
+22968
+Iteration  83
+29700
+Iteration  84
+22968
+Iteration  85
+29700
+Iteration  86
+22968
+Iteration  87
+29700
+Iteration  88
+22968
+Iteration  89
+29700
+Iteration  90
+22968
+Iteration  91
+29700
+Iteration  92
+22968
+Iteration  93
+29700
+Iteration  94
+22968
+Iteration  95
+29700
+Iteration  96
+22968
+Iteration  97
+29700
+Iteration  98
+22968
+Iteration  99
+29700
+Iteration  100
+22968
+Iteration  101
+29700
+Iteration  102
+22968
+Iteration  103
+29700
+Iteration  104
+22968
+Iteration  105
+29700
+Iteration  106
+22968
+Iteration  107
+29700
+Iteration  108
+22968
+Iteration  109
+29700
+Iteration  110
+22968
+Iteration  111
+29700
+Iteration  112
+22968
+Iteration  113
+29700
+Iteration  114
+22968
+Iteration  115
+29700
+Iteration  116
+22968
+Iteration  117
+29700
+Iteration  118
+22968
+Iteration  119
+29700
+Iteration  120
+22968
+Iteration  121
+29700
+Iteration  122
+22968
+Iteration  123
+29700
+Iteration  124
+22968
+Iteration  125
+29700
+Iteration  126
+22968
+Iteration  127
+29700
+Iteration  128
+22968
+Iteration  129
+29700
+Iteration  130
+22968
+Iteration  131
+29700
+Iteration  132
+22968
+Iteration  133
+29700
+Iteration  134
+22968
+Iteration  135
+29700
+Iteration  136
+22968
+Iteration  137
+29700
+Iteration  138
+22968
+Iteration  139
+29700
+Iteration  140
+22968
+Iteration  141
+29700
+Iteration  142
+22968
+Iteration  143
+29700
+Iteration  144
+22968
+Iteration  145
+29700
+Iteration  146
+22968
+Iteration  147
+29700
+Iteration  148
+22968
+Iteration  149
+29700
+Iteration  150
+22968
+Iteration  151
+29700
+Iteration  152
+22968
+Iteration  153
+29700
+Iteration  154
+22968
+Iteration  155
+29700
+Iteration  156
+22968
+Iteration  157
+29700
+Iteration  158
+22968
+Iteration  159
+29700
+Iteration  160
+22968
+Iteration  161
+29700
+Iteration  162
+22968
+Iteration  163
+29700
+Iteration  164
+22968
+Iteration  165
+29700
+Iteration  166
+22968
+Iteration  167
+29700
+Iteration  168
+22968
+Iteration  169
+29700
+Iteration  170
+22968
+Iteration  171
+29700
+Iteration  172
+22968
+Iteration  173
+29700
+Iteration  174
+22968
+Iteration  175
+29700
+Iteration  176
+22968
+Iteration  177
+29700
+Iteration  178
+22968
+Iteration  179
+29700
+Iteration  180
+22968
+Iteration  181
+29700
+Iteration  182
+22968
+Iteration  183
+29700
+Iteration  184
+22968
+Iteration  185
+29700
+Iteration  186
+22968
+Iteration  187
+29700
+Iteration  188
+22968
+Iteration  189
+29700
+Iteration  190
+22968
+Iteration  191
+29700
+Iteration  192
+22968
+Iteration  193
+29700
+Iteration  194
+22968
+Iteration  195
+29700
+Iteration  196
+22968
+Iteration  197
+29700
+Iteration  198
+22968
+Iteration  199
+29700
+Iteration  200
+22968
+Iteration  201
+29700
+Iteration  202
+22968
+Iteration  203
+29700
+Iteration  204
+22968
+Iteration  205
+29700
+Iteration  206
+22968
+Iteration  207
+29700
+Iteration  208
+22968
+Iteration  209
+29700
+Iteration  210
+22968
+Iteration  211
+29700
+Iteration  212
+22968
+Iteration  213
+29700
+Iteration  214
+22968
+Iteration  215
+29700
+Iteration  216
+22968
+Iteration  217
+29700
+Iteration  218
+22968
+Iteration  219
+29700
+Iteration  220
+22968
+Iteration  221
+29700
+Iteration  222
+22968
+Iteration  223
+29700
+Iteration  224
+22968
+Iteration  225
+29700
+Iteration  226
+22968
+Iteration  227
+29700
+Iteration  228
+22968
+Iteration  229
+29700
+Iteration  230
+22968
+Iteration  231
+29700
+Iteration  232
+22968
+Iteration  233
+29700
+Iteration  234
+22968
+Iteration  235
+29700
+Iteration  236
+22968
+Iteration  237
+29700
+Iteration  238
+22968
+Iteration  239
+29700
+Iteration  240
+22968
+Iteration  241
+29700
+Iteration  242
+22968
+Iteration  243
+29700
+Iteration  244
+22968
+Iteration  245
+29700
+Iteration  246
+22968
+Iteration  247
+29700
+Iteration  248
+22968
+Iteration  249
+29700
+Iteration  250
+22968
+Iteration  251
+29700
+Iteration  252
+22968
+Iteration  253
+29700
+Iteration  254
+22968
+Iteration  255
+29700
+Iteration  256
+22968
+Iteration  257
+29700
+Iteration  258
+22968
+Iteration  259
+29700
+Iteration  260
+22968
+Iteration  261
+29700
+Iteration  262
+22968
+Iteration  263
+29700
+Iteration  264
+22968
+Iteration  265
+29700
+Iteration  266
+22968
+Iteration  267
+29700
+Iteration  268
+22968
+Iteration  269
+29700
+Iteration  270
+22968
+Iteration  271
+29700
+Iteration  272
+22968
+Iteration  273
+29700
+Iteration  274
+22968
+Iteration  275
+29700
+Iteration  276
+22968
+Iteration  277
+29700
+Iteration  278
+22968
+Iteration  279
+29700
+Iteration  280
+22968
+Iteration  281
+29700
+Iteration  282
+22968
+Iteration  283
+29700
+Iteration  284
+22968
+Iteration  285
+29700
+Iteration  286
+22968
+Iteration  287
+29700
+Iteration  288
+22968
+Iteration  289
+29700
+Iteration  290
+22968
+Iteration  291
+29700
+Iteration  292
+22968
+Iteration  293
+29700
+Iteration  294
+22968
+Iteration  295
+29700
+Iteration  296
+22968
+Iteration  297
+29700
+Iteration  298
+22968
+Iteration  299
+29700
+Iteration  300
+22968
+Iteration  301
+29700
+Iteration  302
+22968
+Iteration  303
+29700
+Iteration  304
+22968
+Iteration  305
+29700
+Iteration  306
+22968
+Iteration  307
+29700
+Iteration  308
+22968
+Iteration  309
+29700
+Iteration  310
+22968
+Iteration  311
+29700
+Iteration  312
+22968
+Iteration  313
+29700
+Iteration  314
+22968
+Iteration  315
+29700
+Iteration  316
+22968
+Iteration  317
+29700
+Iteration  318
+22968
+Iteration  319
+29700
+Iteration  320
+22968
+Iteration  321
+29700
+Iteration  322
+22968
+Iteration  323
+29700
+Iteration  324
+22968
+Iteration  325
+29700
+Iteration  326
+22968
+Iteration  327
+29700
+Iteration  328
+22968
+Iteration  329
+29700
+Iteration  330
+22968
+Iteration  331
+29700
+Iteration  332
+22968
+Iteration  333
+29700
+Iteration  334
+22968
+Iteration  335
+29700
+Iteration  336
+22968
+Iteration  337
+29700
+Iteration  338
+22968
+Iteration  339
+29700
+Iteration  340
+22968
+Iteration  341
+29700
+Iteration  342
+22968
+Iteration  343
+29700
+Iteration  344
+22968
+Iteration  345
+29700
+Iteration  346
+22968
+Iteration  347
+29700
+Iteration  348
+22968
+Iteration  349
+29700
+Iteration  350
+22968
+Iteration  351
+29700
+Iteration  352
+22968
+Iteration  353
+29700
+Iteration  354
+22968
+Iteration  355
+29700
+Iteration  356
+22968
+Iteration  357
+29700
+Iteration  358
+22968
+Iteration  359
+29700
+Iteration  360
+22968
+Iteration  361
+29700
+Iteration  362
+22968
+Iteration  363
+29700
+Iteration  364
+22968
+Iteration  365
+29700
+Iteration  366
+22968
+Iteration  367
+29700
+Iteration  368
+22968
+Iteration  369
+29700
+Iteration  370
+22968
+Iteration  371
+29700
+Iteration  372
+22968
+Iteration  373
+29700
+Iteration  374
+22968
+Iteration  375
+29700
+Iteration  376
+22968
+Iteration  377
+29700
+Iteration  378
+22968
+Iteration  379
+29700
+Iteration  380
+22968
+Iteration  381
+29700
+Iteration  382
+22968
+Iteration  383
+29700
+Iteration  384
+22968
+Iteration  385
+29700
+Iteration  386
+22968
+Iteration  387
+29700
+Iteration  388
+22968
+Iteration  389
+29700
+Iteration  390
+22968
+Iteration  391
+29700
+Iteration  392
+22968
+Iteration  393
+29700
+Iteration  394
+22968
+Iteration  395
+29700
+Iteration  396
+22968
+Iteration  397
+29700
+Iteration  398
+22968
+Iteration  399
+29700
+Iteration  400
+22968
+Iteration  401
+29700
+Iteration  402
+22968
+Iteration  403
+29700
+Iteration  404
+22968
+Iteration  405
+29700
+Iteration  406
+22968
+Iteration  407
+29700
+Iteration  408
+22968
+Iteration  409
+29700
+Iteration  410
+22968
+Iteration  411
+29700
+Iteration  412
+22968
+Iteration  413
+29700
+Iteration  414
+22968
+Iteration  415
+29700
+Iteration  416
+22968
+Iteration  417
+29700
+Iteration  418
+22968
+Iteration  419
+29700
+Iteration  420
+22968
+Iteration  421
+29700
+Iteration  422
+22968
+Iteration  423
+29700
+Iteration  424
+22968
+Iteration  425
+29700
+Iteration  426
+22968
+Iteration  427
+29700
+Iteration  428
+22968
+Iteration  429
+29700
+Iteration  430
+22968
+Iteration  431
+29700
+Iteration  432
+22968
+Iteration  433
+29700
+Iteration  434
+22968
+Iteration  435
+29700
+Iteration  436
+22968
+Iteration  437
+29700
+Iteration  438
+22968
+Iteration  439
+29700
+Iteration  440
+22968
+Iteration  441
+29700
+Iteration  442
+22968
+Iteration  443
+29700
+Iteration  444
+22968
+Iteration  445
+29700
+Iteration  446
+22968
+Iteration  447
+29700
+Iteration  448
+22968
+Iteration  449
+29700
+Iteration  450
+22968
+Iteration  451
+29700
+Iteration  452
+22968
+Iteration  453
+29700
+Iteration  454
+22968
+Iteration  455
+29700
+Iteration  456
+22968
+Iteration  457
+29700
+Iteration  458
+22968
+Iteration  459
+29700
+Iteration  460
+22968
+Iteration  461
+29700
+Iteration  462
+22968
+Iteration  463
+29700
+Iteration  464
+22968
+Iteration  465
+29700
+Iteration  466
+22968
+Iteration  467
+29700
+Iteration  468
+22968
+Iteration  469
+29700
+Iteration  470
+22968
+Iteration  471
+29700
+Iteration  472
+22968
+Iteration  473
+29700
+Iteration  474
+22968
+Iteration  475
+29700
+Iteration  476
+22968
+Iteration  477
+29700
+Iteration  478
+22968
+Iteration  479
+29700
+Iteration  480
+22968
+Iteration  481
+29700
+Iteration  482
+22968
+Iteration  483
+29700
+Iteration  484
+22968
+Iteration  485
+29700
+Iteration  486
+22968
+Iteration  487
+29700
+Iteration  488
+22968
+Iteration  489
+29700
+Iteration  490
+22968
+Iteration  491
+29700
+Iteration  492
+22968
+Iteration  493
+29700
+Iteration  494
+22968
+Iteration  495
+29700
+Iteration  496
+22968
+Iteration  497
+29700
+Iteration  498
+22968
+Iteration  499
+29700
+Genetic Algorithms Complete
+optimized strategy:  [1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]
+ALLC vs ALLC: [300, 300]
+ALLC vs ALLD: [0, 500]
+ALLC vs RAND: [156, 396]
+ALLC vs TFT: [300, 300]
+ALLC vs TF2T: [300, 300]
+ALLC vs STFT: [297, 302]
+ALLC vs GTFT: [300, 300]
+ALLC vs PAVLOV: [300, 300]
+ALLC vs APAVLOV: [300, 300]
+ALLC vs GRIM: [300, 300]
+ALLC vs EXT_ZD: [216, 356]
+ALLC vs GEN_ZD: [93, 438]
+ALLC vs GENETIC: [0, 500]
+ALLD vs ALLD: [100, 100]
+ALLD vs RAND: [312, 47]
+ALLD vs TFT: [104, 99]
+ALLD vs TF2T: [108, 98]
+ALLD vs STFT: [100, 100]
+ALLD vs GTFT: [144, 89]
+ALLD vs PAVLOV: [300, 50]
+ALLD vs APAVLOV: [104, 99]
+ALLD vs GRIM: [104, 99]
+ALLD vs EXT_ZD: [104, 99]
+ALLD vs GEN_ZD: [104, 99]
+ALLD vs GENETIC: [108, 98]
+RAND vs RAND: [254, 254]
+RAND vs TFT: [236, 231]
+RAND vs TF2T: [333, 193]
+RAND vs STFT: [221, 226]
+RAND vs GTFT: [106, 296]
+RAND vs PAVLOV: [222, 232]
+RAND vs APAVLOV: [234, 229]
+RAND vs GRIM: [79, 259]
+RAND vs EXT_ZD: [194, 249]
+RAND vs GEN_ZD: [104, 259]
+RAND vs GENETIC: [48, 308]
+TFT vs TFT: [300, 300]
+TFT vs TF2T: [300, 300]
+TFT vs STFT: [250, 250]
+TFT vs GTFT: [300, 300]
+TFT vs PAVLOV: [300, 300]
+TFT vs APAVLOV: [300, 300]
+TFT vs GRIM: [300, 300]
+TFT vs EXT_ZD: [107, 112]
+TFT vs GEN_ZD: [103, 108]
+TFT vs GENETIC: [99, 104]
+TF2T vs TF2T: [300, 300]
+TF2T vs STFT: [297, 302]
+TF2T vs GTFT: [300, 300]
+TF2T vs PAVLOV: [300, 300]
+TF2T vs APAVLOV: [300, 300]
+TF2T vs GRIM: [300, 300]
+TF2T vs EXT_ZD: [136, 156]
+TF2T vs GEN_ZD: [100, 110]
+TF2T vs GENETIC: [99, 104]
+STFT vs STFT: [100, 100]
+STFT vs GTFT: [133, 133]
+STFT vs PAVLOV: [203, 198]
+STFT vs APAVLOV: [250, 250]
+STFT vs GRIM: [103, 103]
+STFT vs EXT_ZD: [108, 108]
+STFT vs GEN_ZD: [113, 113]
+STFT vs GENETIC: [105, 105]
+GTFT vs GTFT: [300, 300]
+GTFT vs PAVLOV: [300, 300]
+GTFT vs APAVLOV: [300, 300]
+GTFT vs GRIM: [300, 300]
+GTFT vs EXT_ZD: [123, 153]
+GTFT vs GEN_ZD: [99, 144]
+GTFT vs GENETIC: [91, 136]
+PAVLOV vs PAVLOV: [300, 300]
+PAVLOV vs APAVLOV: [300, 300]
+PAVLOV vs GRIM: [300, 300]
+PAVLOV vs EXT_ZD: [174, 219]
+PAVLOV vs GEN_ZD: [140, 245]
+PAVLOV vs GENETIC: [50, 300]
+APAVLOV vs APAVLOV: [300, 300]
+APAVLOV vs GRIM: [300, 300]
+APAVLOV vs EXT_ZD: [117, 122]
+APAVLOV vs GEN_ZD: [103, 108]
+APAVLOV vs GENETIC: [99, 104]
+GRIM vs GRIM: [300, 300]
+GRIM vs EXT_ZD: [125, 130]
+GRIM vs GEN_ZD: [101, 106]
+GRIM vs GENETIC: [99, 104]
+EXT_ZD vs EXT_ZD: [135, 135]
+EXT_ZD vs GEN_ZD: [102, 102]
+EXT_ZD vs GENETIC: [99, 104]
+GEN_ZD vs GEN_ZD: [101, 101]
+GEN_ZD vs GENETIC: [98, 108]
+GENETIC vs GENETIC: [204, 204]
+{'ALLC': (0, 8, 6, 3162),
+ 'ALLD': (11, 3, 0, 2292),
+ 'APAVLOV': (0, 9, 5, 3297),
+ 'EXT_ZD': (8, 4, 2, 2175),
+ 'GENETIC': (10, 3, 1, 2483),
+ 'GEN_ZD': (8, 4, 2, 2132),
+ 'GRIM': (1, 9, 4, 3186),
+ 'GTFT': (1, 9, 4, 3231),
+ 'PAVLOV': (1, 8, 5, 3244),
+ 'RAND': (4, 2, 8, 2728),
+ 'STFT': (4, 10, 0, 2395),
+ 'TF2T': (0, 8, 6, 3323),
+ 'TFT': (0, 9, 5, 3289)}
