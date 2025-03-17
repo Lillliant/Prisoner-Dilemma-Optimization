@@ -16,9 +16,10 @@ def objective_function(strategies: list[list[int]], opponent: list[int]):
         tournament_scores = []
         for p in players:
             tournament_scores.append(tournament([p, opponent_player]))
-        return tournament_scores
+        print("Maximum score: ", max(tournament_scores))
+        return [t[0] for t in tournament_scores]
     else:
-        return tournament(players)
+        return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
 
 # return a list of neighbours of the current strategy.
 # neighbours are defined to be strategies encodings 
@@ -36,7 +37,8 @@ def tabu_search(initial_strategy: list[int] = None, opponent_strategy: list[int]
     current_strategy = initial_strategy
     tabu_list = []
 
-    for _ in range(ITERATIONS):
+    for i in range(ITERATIONS):
+        print("Iteration ", i)
         neighbours = generate_neighbours(current_strategy)
         neighbours = [n for n in neighbours if n not in tabu_list] # Avoid revisiting states / strategies
         all_strategies = neighbours
@@ -47,7 +49,13 @@ def tabu_search(initial_strategy: list[int] = None, opponent_strategy: list[int]
         best_neighbour_score = max(all_strategies_scores[:-1])
         best_neighbour = neighbours[all_strategies_scores.index(best_neighbour_score)]
 
-        if best_neighbour_score <= current_strategy_score:
+        if i % 1 == 0:
+            print("Current strategy: ", current_strategy, current_strategy_score)
+            print("Best neighbour: ", best_neighbour, best_neighbour_score)
+
+        if best_neighbour_score < current_strategy_score:
+            print("Current strategy (maxima): ", current_strategy, current_strategy_score)
+            print("Best neighbour (maxima): ", best_neighbour, best_neighbour_score)
             return current_strategy
         current_strategy = best_neighbour
         tabu_list.append(current_strategy)

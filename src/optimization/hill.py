@@ -27,8 +27,8 @@ def objective_function(strategies: list[list[int]], opponent: list[int]):
         tournament_scores = []
         for p in players:
             tournament_scores.append(tournament([p, opponent_player]))
-        print(tournament_scores)
-        return tournament_scores
+        print("Maximum score: ", max(tournament_scores))
+        return [t[0] for t in tournament_scores]
     else:
         return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
     
