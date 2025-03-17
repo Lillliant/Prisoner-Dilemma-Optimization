@@ -134,7 +134,6 @@ def mem_to_idx(player_mem: list[int], opponent_mem: list[int]):
         bin_code.append(bit_1)
         bin_code.append(bit_2)
     index = int("".join(map(str, bin_code)), 2)
-    print(index)
     return int("".join(map(str, bin_code)), 2)
 
 # Generate an encoding string based on the specific human designed strategy

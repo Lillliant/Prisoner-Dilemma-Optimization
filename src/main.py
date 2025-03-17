@@ -8,7 +8,7 @@ from pprint import pprint
 from tournament.player import Player
 
 # MAIN PARAMETERS
-USE_HILL_CLIMBING = False
+USE_HILL_CLIMBING = True
 USE_TABU_SEARCH = False
 USE_GENETIC = False
 human_strategy = ['ALLC', 'ALLD', 'RAND', 'TFT', 'TF2T', 'STFT', 'GTFT', 'PAVLOV', 'APAVLOV', 'GRIM', 'EXT_ZD', 'GEN_ZD']
@@ -21,7 +21,7 @@ for strategy in human_strategy:
 if USE_HILL_CLIMBING:
     print("Hill Climbing")
     hill_climbing_strategy = hill_climbing()
-    # hill_climbing_strategy = hill_climbing(opponent_strategy=generate_encoding('TFT'))
+    #hill_climbing_strategy = hill_climbing(opponent_strategy=generate_encoding(Player('TFT')))
     strategies.append(('HILL_CLIMBING', Player('ENCODED', hill_climbing_strategy)))
     print("Hill Climbing Complete")
     print("optimized strategy: ", hill_climbing_strategy)
@@ -47,7 +47,7 @@ for i, (name_a, strategy_a) in enumerate(strategies):
     for name_b, strategy_b in strategies[i:]: # competes against itself, but avoid repeated matches
         players = [strategy_a, strategy_b]
         scores = tournament(players)
-        #print(f"{name_a} vs {name_b}: {scores}")
+        print(f"{name_a} vs {name_b}: {scores}")
         if (scores[0] < scores[1]): # strategy_b wins
             strategy_scores[name_b] = (strategy_scores[name_b][0] + 1, strategy_scores[name_b][1], strategy_scores[name_b][2], strategy_scores[name_b][3] + scores[1])
             strategy_scores[name_a] = (strategy_scores[name_a][0], strategy_scores[name_a][1], strategy_scores[name_a][2] + 1, strategy_scores[name_a][3] + scores[0])

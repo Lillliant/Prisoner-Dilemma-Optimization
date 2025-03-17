@@ -27,6 +27,7 @@ def objective_function(strategies: list[list[int]], opponent: list[int]):
         tournament_scores = []
         for p in players:
             tournament_scores.append(tournament([p, opponent_player]))
+        print(tournament_scores)
         return tournament_scores
     else:
         return tournament(players) # returns a list where tournament_scores[i] is the tournament score of strategies[i]
@@ -37,7 +38,8 @@ def objective_function(strategies: list[list[int]], opponent: list[int]):
 def hill_climbing(initial_strategy: list[int] = None, opponent_strategy: list[int] = None):
     if initial_strategy is None: initial_strategy = generate_random_strategy(STRATEGY_LENGTH)
     current_strategy = initial_strategy
-    for _ in range(ITERATIONS):
+    for i in range(ITERATIONS):
+        print("Iteration ", i)
         neighbours = generate_neighbours(current_strategy)
         all_strategies = neighbours
         all_strategies.append(current_strategy)
@@ -46,8 +48,13 @@ def hill_climbing(initial_strategy: list[int] = None, opponent_strategy: list[in
         current_strategy_score = all_strategies_scores[-1]
         best_neighbour_score = max(all_strategies_scores[:-1])
         best_neighbour = neighbours[all_strategies_scores.index(best_neighbour_score)]
+        if i % 1 == 0:
+            print("Current strategy: ", current_strategy, current_strategy_score)
+            print("Best neighbour: ", best_neighbour, best_neighbour_score)
 
-        if best_neighbour_score <= current_strategy_score:
+        if best_neighbour_score < current_strategy_score:
+            print("Current strategy (maxima): ", current_strategy, current_strategy_score)
+            print("Best neighbour (maxima): ", best_neighbour, best_neighbour_score)
             return current_strategy
         current_strategy = best_neighbour
         
