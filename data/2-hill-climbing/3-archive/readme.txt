@@ -1,0 +1,1 @@
+The data in this folder is the experimental result . However, we have encountered issues with running the code for larger memory depths due to server constraints (the server we used cannot accommodate running overnight processes). Hence, the partial results are stored here.

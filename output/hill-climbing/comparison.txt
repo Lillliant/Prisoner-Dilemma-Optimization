@@ -1,9 +1,0 @@
-Scenario 1: no optimization against TFT & (Competition with other human strategies)
-    1. Memory 2, Iteration 1000
-    2. Memory 3, Iteration 1000
-    3. Memory 4, Iteration 1000
-    4. Finally, select the best strategy of the 3 and compete in 3 optimization (also check iteration 100, 500's best strategy)
-Scenario 2: optimization against TFT    
-    1. Memory 2, Iteration: 1000 (see score against TFT over the iterations of the best neighbour & then final competition against other strategies)
-    2. Memory 3, Iteration: 1000 (see score against TFT over the iterations of the best neighbour & then final competition against other strategies)
-    3. Memory 4, Iteration: 1000 (see score against TFT over the iterations of the best neighbour & then final competition against other strategies)

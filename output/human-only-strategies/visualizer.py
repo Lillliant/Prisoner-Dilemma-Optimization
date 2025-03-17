@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
+# Data as obtained from the data folder
 # memory depth : results
 data_r10 = {
     2: {
