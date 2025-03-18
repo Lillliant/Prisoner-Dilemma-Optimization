@@ -8,7 +8,7 @@ from pprint import pprint
 from tournament.player import Player
 
 # MAIN PARAMETERS
-USE_HILL_CLIMBING = True
+USE_HILL_CLIMBING = False
 USE_TABU_SEARCH = False
 USE_GENETIC = False
 human_strategy = ['ALLC', 'ALLD', 'RAND', 'TFT', 'TF2T', 'STFT', 'GTFT', 'PAVLOV', 'APAVLOV', 'GRIM', 'EXT_ZD', 'GEN_ZD']
@@ -28,7 +28,9 @@ if USE_HILL_CLIMBING:
 
 if USE_TABU_SEARCH:
     print("Tabu Search")
-    tabu_search_strategy = tabu_search()
+    init_strat = [1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0]
+    #tabu_search_strategy = tabu_search()
+    tabu_search_strategy = tabu_search(initial_strategy=init_strat, opponent_strategy=generate_encoding(Player('TFT')))
     strategies.append(('TABU_SEARCH', Player('ENCODED', tabu_search_strategy)))
     print("Tabu Search Complete")
     print("optimized strategy: ", tabu_search_strategy)
@@ -39,6 +41,24 @@ if USE_GENETIC:
     strategies.append(('GENETIC', Player('ENCODED', genetic_strategy)))
     print("Genetic Algorithms Complete")
     print("optimized strategy: ", genetic_strategy)
+
+# add the best strategies to the list
+#"""
+hc_all = [1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0]
+ts_score_deviation = [0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0]
+ts_win = [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1]
+g_score = [0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+g_win = [1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1]
+g_deviation_1 = [0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1]
+g_deviation_2 = [0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+#""""
+strategies.append(('HILL_CLIMBING_ALL', Player('ENCODED', hc_all)))
+strategies.append(('TABU_SEARCH_SCORE_DEVIATION', Player('ENCODED', ts_score_deviation)))
+strategies.append(('TABU_SEARCH_WIN', Player('ENCODED', ts_win)))
+strategies.append(('GENETIC_SCORE', Player('ENCODED', g_score)))
+strategies.append(('GENETIC_WIN', Player('ENCODED', g_win)))
+strategies.append(('GENETIC_DEVIATION_1', Player('ENCODED', g_deviation_1)))
+strategies.append(('GENETIC_DEVIATION_2', Player('ENCODED', g_deviation_2)))
 
 # Run the tournament with the optimized strategies and the original strategies
 # (Win, Tie, Loss, Cumulative Score)
