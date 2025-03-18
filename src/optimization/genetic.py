@@ -84,12 +84,15 @@ def genetic(population: list[list[int]] = None, opponent: list[int] = None):
     if opponent is not None:
         for i in range(GENERATIONS):
             print("Iteration ", i)
-            population_score = []
-            for i in range(population):
+            population_score = [0 for i in range(len(population))]
+            for i in range(len(population)):
                 population_score[i] = tournament([Player('ENCODED', population[i]), Player('ENCODED', opponent)])
-                population_score = [p[0] for p in population_score]
-                selected_population = selection_function(population, population_score)
-                population = reproduce_population(selected_population)
+                
+            print(max(population_score))
+            print(population[population_score.index(max(population_score))])
+            population_score = [p[0] for p in population_score]
+            selected_population = selection_function(population, population_score)
+            population = reproduce_population(selected_population)
     else: # for optimizing against a random population
         for i in range(GENERATIONS):
             print("Iteration ", i)
