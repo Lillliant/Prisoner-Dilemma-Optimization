@@ -187,7 +187,7 @@ def visualize_win_by_memory(data: dict, name: str):
     plt.xlabel("Strategy")
     plt.xticks(x_axis + width, strategy, rotation=-90)
     plt.ylabel("Wins")
-    plt.title("Wins by Strategy")
+    plt.title(f"Wins by Strategy ({name})")
     #plt.show()
     plt.savefig(f'{name}-wincount.png')
     plt.close()
@@ -209,11 +209,11 @@ def visualize_score_by_memory(data: dict , name:str):
     plt.xlabel("Strategy")
     plt.xticks(x_axis + width, strategy, rotation=-90)
     plt.ylabel("Deviation from Max Score")
-    plt.title("Deviation from Max Score by Strategy")
+    plt.title(f"Deviation from Max Score by Strategy ({name})")
     #plt.show()
     plt.savefig(f'{name}-score-deviation.png')
     plt.close()
 
 if __name__ == "__main__":
-    #visualize_win_by_memory(data_r1000, name="R1000")
-    visualize_score_by_memory(data_r1000, name="R1000")
+    visualize_win_by_memory(data_r10, name="R10")
+    visualize_score_by_memory(data_r10, name="R10")
