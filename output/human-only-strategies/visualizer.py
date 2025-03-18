@@ -212,28 +212,6 @@ def visualize_score_by_memory(data: dict , name:str):
         plt.savefig(f'{name}-{memory_depth}-score-deviation.png')
         plt.close()
 
-def visualize_round_win_count(rounds:list[int], data_list:list[dict], mem:int):
-    # x: strategies
-    # y_i: wins for memory depth i, ordered by strategy
-    strategies = list(data[0].keys())
-
-    x = len(list(data[0].values())[0])
-    x_axis = np.arange(x)
-    width = 0.2
-    for i, (memory_depth, results) in enumerate(data.items()):
-        strategy = list(results.keys())
-        wins = [scores[0] for scores in results.values()]
-        offset = width * i
-        plt.bar(x_axis + offset, wins, width, label=f"Memory Depth {memory_depth}")
-
-    # Add some text for labels, title and custom x-axis tick labels, etc.
-    plt.legend()
-    plt.xlabel("Strategy")
-    plt.xticks(x_axis + width, strategy)
-    plt.ylabel("Wins")
-    plt.title("Wins by Strategy")
-    plt.show()
-
 if __name__ == "__main__":
     visualize_win_by_memory(data_r1000, name="R1000")
     #visualize_score_by_memory(data_r1000, name="R1000")
