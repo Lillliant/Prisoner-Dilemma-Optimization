@@ -195,15 +195,11 @@ def visualize_win_by_memory(data: dict, name: str):
 def visualize_score_by_memory(data: dict , name:str):
         # x: strategies
     # y_i: wins for memory depth i, ordered by strategy
-    x = len(list(data.values())[0])
-    x_axis = np.arange(x)
-    width = 0.2
-    for i, (memory_depth, results) in enumerate(data.items()):
+    for memory_depth, results in data.items():
         plt.subplots(layout="constrained")
         strategy = list(results.keys())
         cumulative_score = [scores[3] for scores in results.values()]
         score_ratio = [score - max(cumulative_score) for score in cumulative_score]
-        offset = width * i
         plt.bar(strategy, score_ratio, label=f"Memory Depth {memory_depth}")
         plt.legend()
         plt.xlabel("Strategy")
