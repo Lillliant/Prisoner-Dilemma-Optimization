@@ -87,6 +87,7 @@ def graph_score_count(data:dict):
         plt.subplots(layout="constrained")
         strategy = list(results.keys())
         cumulative_score = [scores[3] for scores in results.values()]
+        #plt.bar(strategy, cumulative_score, label=f"Iteration {iteration}")
         score_deviation = [s - max(cumulative_score) for s in cumulative_score]
         plt.bar(strategy, score_deviation, label=f"Iteration {iteration}")
         plt.legend()
