@@ -128,27 +128,37 @@ def graph_win_count(data: dict, name: str):
     plt.xlabel("Strategy")
     plt.xticks(x_axis + width, strategy, rotation=-90)
     plt.ylabel("Wins")
-    plt.title("Wins by Strategy")
+    if name == "tft":
+        plt.title("Wins by Strategy (TFT)")
+    else:
+        plt.title("Wins by Strategy")
     #plt.show()
     plt.savefig(f'ts-{name}-win-count.png')
     plt.close()
 
 def graph_score_count(data:dict, name: str):
     x = len(list(data.values())[0])
-    for var, results in data.items():
-        plt.subplots(layout="constrained")
+    x_axis = np.arange(x)
+    width = 0.2
+    plt.figure(layout="constrained")
+    for i, (var, results) in enumerate(data.items()):
+        #plt.subplots(layout="constrained")
         strategy = list(results.keys())
         cumulative_score = [scores[3] for scores in results.values()]
         score_deviation = [s - max(cumulative_score) for s in cumulative_score]
-        plt.bar(strategy, score_deviation, label=f"Mutation Rate {var}")
-        plt.legend()
-        plt.xlabel("Strategy")
-        plt.xticks(strategy, rotation=-90)
-        plt.ylabel("Deviation from Max Score")
+        offset = width * i
+        plt.bar(x_axis + offset, score_deviation, width, label=f"Mutation Rate {var}")
+    plt.legend()
+    plt.xlabel("Strategy")
+    plt.xticks(x_axis + width, strategy, rotation=-90)
+    plt.ylabel("Deviation from Max Score")
+    if name == 'tft':
+        plt.title("Deviation from Max Score by Strategy (TFT)")
+    else:
         plt.title("Deviation from Max Score by Strategy")
-        #plt.show()
-        plt.savefig(f'ts-{name}-score-deviation-{var}.png')
-        plt.close()
+    #plt.show()
+    plt.savefig(f'ts-{name}-score-deviation.png')
+    plt.close()
 
 if __name__ == '__main__':
     print("Parent: ", m0001n_strategy)
