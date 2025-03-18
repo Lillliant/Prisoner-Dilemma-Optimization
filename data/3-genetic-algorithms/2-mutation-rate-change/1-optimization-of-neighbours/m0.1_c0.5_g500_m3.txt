@@ -1,790 +1,1107 @@
 Genetic Algorithm
 Iteration  0
-28568
+29090
 Iteration  1
-26075
+30629
 Iteration  2
-27884
+32932
 Iteration  3
-27722
+29404
 Iteration  4
-27104
+29127
 Iteration  5
-29397
+26888
 Iteration  6
-31904
+22227
 Iteration  7
-25636
+27458
 Iteration  8
-38017
+21707
 Iteration  9
-26677
+24380
 Iteration  10
-48045
+17820
 Iteration  11
-29408
+16434
 Iteration  12
-14850
+17820
 Iteration  13
-29700
+16434
 Iteration  14
-14850
+17820
 Iteration  15
-29700
+16434
 Iteration  16
-14850
+17820
 Iteration  17
-29700
+16434
 Iteration  18
-14850
+17820
 Iteration  19
-29700
+16434
 Iteration  20
-14850
+17820
 Iteration  21
-29700
+16434
 Iteration  22
-14850
+17820
 Iteration  23
-29700
+16434
 Iteration  24
-14850
+17820
 Iteration  25
-29700
+16434
 Iteration  26
-14850
+17820
 Iteration  27
-29700
+16434
 Iteration  28
-14850
+17820
 Iteration  29
-29700
+16434
 Iteration  30
-14850
+17820
 Iteration  31
-29700
+16434
 Iteration  32
-14850
+17820
 Iteration  33
-29700
+16434
 Iteration  34
-14850
+17820
 Iteration  35
-29700
+16434
 Iteration  36
-14850
+17820
 Iteration  37
-29700
+16434
 Iteration  38
-14850
+17820
 Iteration  39
-29700
+16434
 Iteration  40
-14850
+17820
 Iteration  41
-29700
+16434
 Iteration  42
-14850
+17820
 Iteration  43
-29700
+16434
 Iteration  44
-14850
+17820
 Iteration  45
-29700
+16434
 Iteration  46
-14850
+17820
 Iteration  47
-29700
+16434
 Iteration  48
-14850
+17820
 Iteration  49
-29700
+16434
 Iteration  50
-14850
+17820
 Iteration  51
-29700
+16434
 Iteration  52
-14850
+17820
 Iteration  53
-29700
+16434
 Iteration  54
-14850
+17820
 Iteration  55
-29700
+16434
 Iteration  56
-14850
+17820
 Iteration  57
-29700
+16434
 Iteration  58
-14850
+17820
 Iteration  59
-29700
+16434
 Iteration  60
-14850
+17820
 Iteration  61
-29700
+16434
 Iteration  62
-14850
+17820
 Iteration  63
-29700
+16434
 Iteration  64
-14850
+17820
 Iteration  65
-29700
+16434
 Iteration  66
-14850
+17820
 Iteration  67
-29700
+16434
 Iteration  68
-14850
+17820
 Iteration  69
-29700
+16434
 Iteration  70
-14850
+17820
 Iteration  71
-29700
+16434
 Iteration  72
-14850
+17820
 Iteration  73
-29700
+16434
 Iteration  74
-14850
+17820
 Iteration  75
-29700
+16434
 Iteration  76
-14850
+17820
 Iteration  77
-29700
+16434
 Iteration  78
-14850
+17820
 Iteration  79
-29700
+16434
 Iteration  80
-14850
+17820
 Iteration  81
-29700
+16434
 Iteration  82
-14850
+17820
 Iteration  83
-29700
+16434
 Iteration  84
-14850
+17820
 Iteration  85
-29700
+16434
 Iteration  86
-14850
+17820
 Iteration  87
-29700
+16434
 Iteration  88
-14850
+17820
 Iteration  89
-29700
+16434
 Iteration  90
-14850
+17820
 Iteration  91
-29700
+16434
 Iteration  92
-14850
+17820
 Iteration  93
-29700
+16434
 Iteration  94
-14850
+17820
 Iteration  95
-29700
+16434
 Iteration  96
-14850
+17820
 Iteration  97
-29700
+16434
 Iteration  98
-14850
+17820
 Iteration  99
-29700
+16434
 Iteration  100
-14850
+17820
 Iteration  101
-29700
+16434
 Iteration  102
-14850
+17820
 Iteration  103
-29700
+16434
 Iteration  104
-14850
+17820
 Iteration  105
-29700
+16434
 Iteration  106
-14850
+17820
 Iteration  107
-29700
+16434
 Iteration  108
-14850
+17820
 Iteration  109
-29700
+16434
 Iteration  110
-14850
+17820
 Iteration  111
-29700
+16434
 Iteration  112
-14850
+17820
 Iteration  113
-29700
+16434
 Iteration  114
-14850
+17820
 Iteration  115
-29700
+16434
 Iteration  116
-14850
+17820
 Iteration  117
-29700
+16434
 Iteration  118
-14850
+17820
 Iteration  119
-29700
+16434
 Iteration  120
-14850
+17820
 Iteration  121
-29700
+16434
 Iteration  122
-14850
+17820
 Iteration  123
-29700
+16434
 Iteration  124
-14850
+17820
 Iteration  125
-29700
+16434
 Iteration  126
-14850
+17820
 Iteration  127
-29700
+16434
 Iteration  128
-14850
+17820
 Iteration  129
-29700
+16434
 Iteration  130
-14850
+17820
 Iteration  131
-29700
+16434
 Iteration  132
-14850
+17820
 Iteration  133
-29700
+16434
 Iteration  134
-14850
+17820
 Iteration  135
-29700
+16434
 Iteration  136
-14850
+17820
 Iteration  137
-29700
+16434
 Iteration  138
-14850
+17820
 Iteration  139
-29700
+16434
 Iteration  140
-14850
+17820
 Iteration  141
-29700
+16434
 Iteration  142
-14850
+17820
 Iteration  143
-29700
+16434
 Iteration  144
-14850
+17820
 Iteration  145
-29700
+16434
 Iteration  146
-14850
+17820
 Iteration  147
-29700
+16434
 Iteration  148
-14850
+17820
 Iteration  149
-29700
+16434
 Iteration  150
-14850
+17820
 Iteration  151
-29700
+16434
 Iteration  152
-14850
+17820
 Iteration  153
-29700
+16434
 Iteration  154
-14850
+17820
 Iteration  155
-29700
+16434
 Iteration  156
-14850
+17820
 Iteration  157
-29700
+16434
 Iteration  158
-14850
+17820
 Iteration  159
-29700
+16434
 Iteration  160
-14850
+17820
 Iteration  161
-29700
+16434
 Iteration  162
-14850
+17820
 Iteration  163
-29700
+16434
 Iteration  164
-14850
+17820
 Iteration  165
-29700
+16434
 Iteration  166
-14850
+17820
 Iteration  167
-29700
+16434
 Iteration  168
-14850
+17820
 Iteration  169
-29700
+16434
 Iteration  170
-14850
+17820
 Iteration  171
-29700
+16434
 Iteration  172
-14850
+17820
 Iteration  173
-29700
+16434
 Iteration  174
-14850
+17820
 Iteration  175
-29700
+16434
 Iteration  176
-14850
+17820
 Iteration  177
-29700
+16434
 Iteration  178
-14850
+17820
 Iteration  179
-29700
+16434
 Iteration  180
-14850
+17820
 Iteration  181
-29700
+16434
 Iteration  182
-14850
+17820
 Iteration  183
-29700
+16434
 Iteration  184
-14850
+17820
 Iteration  185
-29700
+16434
 Iteration  186
-14850
+17820
 Iteration  187
-29700
+16434
 Iteration  188
-14850
+17820
 Iteration  189
-29700
+16434
 Iteration  190
-14850
+17820
 Iteration  191
-29700
+16434
 Iteration  192
-14850
+17820
 Iteration  193
-29700
+16434
 Iteration  194
-14850
+17820
 Iteration  195
-29700
+16434
 Iteration  196
-14850
+17820
 Iteration  197
-29700
+16434
 Iteration  198
-14850
+17820
 Iteration  199
-29700
+16434
 Iteration  200
-14850
+17820
 Iteration  201
-29700
+16434
 Iteration  202
-14850
+17820
 Iteration  203
-29700
+16434
 Iteration  204
-14850
+17820
 Iteration  205
-29700
+16434
 Iteration  206
-14850
+17820
 Iteration  207
-29700
+16434
 Iteration  208
-14850
+17820
 Iteration  209
-29700
+16434
 Iteration  210
-14850
+17820
 Iteration  211
-29700
+16434
 Iteration  212
-14850
+17820
 Iteration  213
-29700
+16434
 Iteration  214
-14850
+17820
 Iteration  215
-29700
+16434
 Iteration  216
-14850
+17820
 Iteration  217
-29700
+16434
 Iteration  218
-14850
+17820
 Iteration  219
-29700
+16434
 Iteration  220
-14850
+17820
 Iteration  221
-29700
+16434
 Iteration  222
-14850
+17820
 Iteration  223
-29700
+16434
 Iteration  224
-14850
+17820
 Iteration  225
-29700
+16434
 Iteration  226
-14850
+17820
 Iteration  227
-29700
+16434
 Iteration  228
-14850
+17820
 Iteration  229
-29700
+16434
 Iteration  230
-14850
+17820
 Iteration  231
-29700
+16434
 Iteration  232
-14850
+17820
 Iteration  233
-29700
+16434
 Iteration  234
-14850
+17820
 Iteration  235
-29700
+16434
 Iteration  236
-14850
+17820
 Iteration  237
-29700
+16434
 Iteration  238
-14850
+17820
 Iteration  239
-29700
+16434
 Iteration  240
-14850
+17820
 Iteration  241
-29700
+16434
 Iteration  242
-14850
+17820
 Iteration  243
-29700
+16434
 Iteration  244
-14850
+17820
 Iteration  245
-29700
+16434
 Iteration  246
-14850
+17820
 Iteration  247
-29700
+16434
 Iteration  248
-14850
+17820
 Iteration  249
-29700
+16434
 Iteration  250
-14850
+17820
 Iteration  251
-29700
+16434
 Iteration  252
-14850
+17820
 Iteration  253
-29700
+16434
 Iteration  254
-14850
+17820
 Iteration  255
-29700
+16434
 Iteration  256
-14850
+17820
 Iteration  257
-29700
+16434
 Iteration  258
-14850
+17820
 Iteration  259
-29700
+16434
 Iteration  260
-14850
+17820
 Iteration  261
-29700
+16434
 Iteration  262
-14850
+17820
 Iteration  263
-29700
+16434
 Iteration  264
-14850
+17820
 Iteration  265
-29700
+16434
 Iteration  266
-14850
+17820
 Iteration  267
-29700
+16434
 Iteration  268
-14850
+17820
 Iteration  269
-29700
+16434
 Iteration  270
-14850
+17820
 Iteration  271
-29700
+16434
 Iteration  272
-14850
+17820
 Iteration  273
-29700
+16434
 Iteration  274
-14850
+17820
 Iteration  275
-29700
+16434
 Iteration  276
-14850
+17820
 Iteration  277
-29700
+16434
 Iteration  278
-14850
+17820
 Iteration  279
-29700
+16434
 Iteration  280
-14850
+17820
 Iteration  281
-29700
+16434
 Iteration  282
-14850
+17820
 Iteration  283
-29700
+16434
 Iteration  284
-14850
+17820
 Iteration  285
-29700
+16434
 Iteration  286
-14850
+17820
 Iteration  287
-29700
+16434
 Iteration  288
-14850
+17820
 Iteration  289
-29700
+16434
 Iteration  290
-14850
+17820
 Iteration  291
-29700
+16434
 Iteration  292
-14850
+17820
 Iteration  293
-29700
+16434
 Iteration  294
-14850
+17820
 Iteration  295
-29700
+16434
 Iteration  296
-14850
+17820
 Iteration  297
-29700
+16434
 Iteration  298
-14850
+17820
 Iteration  299
-29700
+16434
 Iteration  300
-14850
+17820
 Iteration  301
-29700
+16434
 Iteration  302
-14850
+17820
 Iteration  303
-29700
+16434
 Iteration  304
-14850
+17820
 Iteration  305
-29700
+16434
 Iteration  306
-14850
+17820
 Iteration  307
-29700
+16434
 Iteration  308
-14850
+17820
 Iteration  309
-29700
+16434
 Iteration  310
-14850
+17820
 Iteration  311
-29700
+16434
 Iteration  312
-14850
+17820
 Iteration  313
-29700
+16434
 Iteration  314
-14850
+17820
 Iteration  315
-29700
+16434
 Iteration  316
-14850
+17820
 Iteration  317
-29700
+16434
 Iteration  318
-14850
+17820
 Iteration  319
-29700
+16434
 Iteration  320
-14850
+17820
 Iteration  321
-29700
+16434
 Iteration  322
-14850
+17820
 Iteration  323
-29700
+16434
 Iteration  324
-14850
+17820
 Iteration  325
-29700
+16434
 Iteration  326
-14850
+17820
 Iteration  327
-29700
+16434
 Iteration  328
-14850
+17820
 Iteration  329
-29700
+16434
 Iteration  330
-14850
+17820
 Iteration  331
-29700
+16434
 Iteration  332
-14850
+17820
 Iteration  333
-29700
+16434
 Iteration  334
-14850
+17820
 Iteration  335
-29700
+16434
 Iteration  336
-14850
+17820
 Iteration  337
-29700
+16434
 Iteration  338
-14850
+17820
 Iteration  339
-29700
+16434
 Iteration  340
-14850
+17820
 Iteration  341
-29700
+16434
 Iteration  342
-14850
+17820
 Iteration  343
-29700
+16434
 Iteration  344
-14850
+17820
 Iteration  345
-29700
+16434
 Iteration  346
-14850
+17820
 Iteration  347
-29700
+16434
 Iteration  348
-14850
+17820
 Iteration  349
-29700
+16434
 Iteration  350
-14850
+17820
 Iteration  351
-29700
+16434
 Iteration  352
-14850
+17820
 Iteration  353
-29700
+16434
 Iteration  354
-14850
+17820
 Iteration  355
-29700
+16434
 Iteration  356
-14850
+17820
 Iteration  357
-29700
+16434
 Iteration  358
-14850
+17820
 Iteration  359
-29700
+16434
 Iteration  360
-14850
+17820
 Iteration  361
-29700
+16434
 Iteration  362
-14850
+17820
 Iteration  363
-29700
+16434
 Iteration  364
-14850
+17820
 Iteration  365
-29700
+16434
 Iteration  366
-14850
+17820
 Iteration  367
-29700
+16434
 Iteration  368
-14850
+17820
 Iteration  369
-29700
+16434
 Iteration  370
-14850
+17820
 Iteration  371
-29700
+16434
 Iteration  372
-14850
+17820
 Iteration  373
-29700
+16434
 Iteration  374
-14850
+17820
 Iteration  375
-29700
+16434
 Iteration  376
-14850
+17820
 Iteration  377
-29700
+16434
 Iteration  378
-14850
+17820
 Iteration  379
-29700
+16434
 Iteration  380
-14850
+17820
 Iteration  381
-29700
+16434
 Iteration  382
-14850
+17820
 Iteration  383
-29700
+16434
 Iteration  384
-14850
+17820
 Iteration  385
-29700
+16434
 Iteration  386
-14850
+17820
 Iteration  387
-29700
+16434
 Iteration  388
-14850
+17820
 Iteration  389
-29700
+16434
 Iteration  390
-14850
+17820
 Iteration  391
-29700
+16434
 Iteration  392
-14850
+17820
 Iteration  393
-29700
-Iteration 
+16434
+Iteration  394
+17820
+Iteration  395
+16434
+Iteration  396
+17820
+Iteration  397
+16434
+Iteration  398
+17820
+Iteration  399
+16434
+Iteration  400
+17820
+Iteration  401
+16434
+Iteration  402
+17820
+Iteration  403
+16434
+Iteration  404
+17820
+Iteration  405
+16434
+Iteration  406
+17820
+Iteration  407
+16434
+Iteration  408
+17820
+Iteration  409
+16434
+Iteration  410
+17820
+Iteration  411
+16434
+Iteration  412
+17820
+Iteration  413
+16434
+Iteration  414
+17820
+Iteration  415
+16434
+Iteration  416
+17820
+Iteration  417
+16434
+Iteration  418
+17820
+Iteration  419
+16434
+Iteration  420
+17820
+Iteration  421
+16434
+Iteration  422
+17820
+Iteration  423
+16434
+Iteration  424
+17820
+Iteration  425
+16434
+Iteration  426
+17820
+Iteration  427
+16434
+Iteration  428
+17820
+Iteration  429
+16434
+Iteration  430
+17820
+Iteration  431
+16434
+Iteration  432
+17820
+Iteration  433
+16434
+Iteration  434
+17820
+Iteration  435
+16434
+Iteration  436
+17820
+Iteration  437
+16434
+Iteration  438
+17820
+Iteration  439
+16434
+Iteration  440
+17820
+Iteration  441
+16434
+Iteration  442
+17820
+Iteration  443
+16434
+Iteration  444
+17820
+Iteration  445
+16434
+Iteration  446
+17820
+Iteration  447
+16434
+Iteration  448
+17820
+Iteration  449
+16434
+Iteration  450
+17820
+Iteration  451
+16434
+Iteration  452
+17820
+Iteration  453
+16434
+Iteration  454
+17820
+Iteration  455
+16434
+Iteration  456
+17820
+Iteration  457
+16434
+Iteration  458
+17820
+Iteration  459
+16434
+Iteration  460
+17820
+Iteration  461
+16434
+Iteration  462
+17820
+Iteration  463
+16434
+Iteration  464
+17820
+Iteration  465
+16434
+Iteration  466
+17820
+Iteration  467
+16434
+Iteration  468
+17820
+Iteration  469
+16434
+Iteration  470
+17820
+Iteration  471
+16434
+Iteration  472
+17820
+Iteration  473
+16434
+Iteration  474
+17820
+Iteration  475
+16434
+Iteration  476
+17820
+Iteration  477
+16434
+Iteration  478
+17820
+Iteration  479
+16434
+Iteration  480
+17820
+Iteration  481
+16434
+Iteration  482
+17820
+Iteration  483
+16434
+Iteration  484
+17820
+Iteration  485
+16434
+Iteration  486
+17820
+Iteration  487
+16434
+Iteration  488
+17820
+Iteration  489
+16434
+Iteration  490
+17820
+Iteration  491
+16434
+Iteration  492
+17820
+Iteration  493
+16434
+Iteration  494
+17820
+Iteration  495
+16434
+Iteration  496
+17820
+Iteration  497
+16434
+Iteration  498
+17820
+Iteration  499
+16434
+Genetic Algorithms Complete
+optimized strategy:  [0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0]
+ALLC vs ALLC: [300, 300]
+ALLC vs ALLD: [0, 500]
+ALLC vs RAND: [132, 412]
+ALLC vs TFT: [300, 300]
+ALLC vs TF2T: [300, 300]
+ALLC vs STFT: [297, 302]
+ALLC vs GTFT: [300, 300]
+ALLC vs PAVLOV: [300, 300]
+ALLC vs APAVLOV: [300, 300]
+ALLC vs GRIM: [300, 300]
+ALLC vs EXT_ZD: [225, 350]
+ALLC vs GEN_ZD: [81, 446]
+ALLC vs GENETIC: [297, 302]
+ALLD vs ALLD: [100, 100]
+ALLD vs RAND: [268, 58]
+ALLD vs TFT: [104, 99]
+ALLD vs TF2T: [108, 98]
+ALLD vs STFT: [100, 100]
+ALLD vs GTFT: [144, 89]
+ALLD vs PAVLOV: [300, 50]
+ALLD vs APAVLOV: [104, 99]
+ALLD vs GRIM: [104, 99]
+ALLD vs EXT_ZD: [108, 98]
+ALLD vs GEN_ZD: [104, 99]
+ALLD vs GENETIC: [492, 2]
+RAND vs RAND: [235, 235]
+RAND vs TFT: [222, 217]
+RAND vs TF2T: [307, 197]
+RAND vs STFT: [224, 229]
+RAND vs GTFT: [106, 291]
+RAND vs PAVLOV: [233, 183]
+RAND vs APAVLOV: [234, 229]
+RAND vs GRIM: [82, 282]
+RAND vs EXT_ZD: [186, 261]
+RAND vs GEN_ZD: [94, 284]
+RAND vs GENETIC: [209, 229]
+TFT vs TFT: [300, 300]
+TFT vs TF2T: [300, 300]
+TFT vs STFT: [250, 250]
+TFT vs GTFT: [300, 300]
+TFT vs PAVLOV: [300, 300]
+TFT vs APAVLOV: [300, 300]
+TFT vs GRIM: [300, 300]
+TFT vs EXT_ZD: [121, 126]
+TFT vs GEN_ZD: [103, 108]
+TFT vs GENETIC: [224, 229]
+TF2T vs TF2T: [300, 300]
+TF2T vs STFT: [297, 302]
+TF2T vs GTFT: [300, 300]
+TF2T vs PAVLOV: [300, 300]
+TF2T vs APAVLOV: [300, 300]
+TF2T vs GRIM: [300, 300]
+TF2T vs EXT_ZD: [142, 162]
+TF2T vs GEN_ZD: [109, 124]
+TF2T vs GENETIC: [160, 360]
+STFT vs STFT: [100, 100]
+STFT vs GTFT: [133, 133]
+STFT vs PAVLOV: [203, 198]
+STFT vs APAVLOV: [250, 250]
+STFT vs GRIM: [103, 103]
+STFT vs EXT_ZD: [129, 129]
+STFT vs GEN_ZD: [103, 103]
+STFT vs GENETIC: [227, 222]
+GTFT vs GTFT: [300, 300]
+GTFT vs PAVLOV: [300, 300]
+GTFT vs APAVLOV: [300, 300]
+GTFT vs GRIM: [300, 300]
+GTFT vs EXT_ZD: [128, 143]
+GTFT vs GEN_ZD: [95, 145]
+GTFT vs GENETIC: [399, 74]
+PAVLOV vs PAVLOV: [300, 300]
+PAVLOV vs APAVLOV: [300, 300]
+PAVLOV vs GRIM: [300, 300]
+PAVLOV vs EXT_ZD: [142, 242]
+PAVLOV vs GEN_ZD: [116, 261]
+PAVLOV vs GENETIC: [59, 294]
+APAVLOV vs APAVLOV: [300, 300]
+APAVLOV vs GRIM: [300, 300]
+APAVLOV vs EXT_ZD: [133, 138]
+APAVLOV vs GEN_ZD: [109, 114]
+APAVLOV vs GENETIC: [224, 229]
+GRIM vs GRIM: [300, 300]
+GRIM vs EXT_ZD: [111, 116]
+GRIM vs GEN_ZD: [107, 112]
+GRIM vs GENETIC: [314, 144]
+EXT_ZD vs EXT_ZD: [141, 141]
+EXT_ZD vs GEN_ZD: [108, 103]
+EXT_ZD vs GENETIC: [280, 160]
+GEN_ZD vs GEN_ZD: [115, 115]
+GEN_ZD vs GENETIC: [350, 110]
+GENETIC vs GENETIC: [302, 302]
+{'ALLC': (0, 8, 6, 3432),
+ 'ALLD': (11, 3, 0, 2636),
+ 'APAVLOV': (0, 9, 5, 3444),
+ 'EXT_ZD': (10, 3, 1, 2435),
+ 'GENETIC': (6, 2, 6, 2959),
+ 'GEN_ZD': (9, 3, 2, 2479),
+ 'GRIM': (2, 9, 3, 3416),
+ 'GTFT': (2, 9, 3, 3535),
+ 'PAVLOV': (0, 8, 6, 3148),
+ 'RAND': (5, 2, 7, 2837),
+ 'STFT': (5, 9, 0, 2531),
+ 'TF2T': (0, 8, 6, 3403),
+ 'TFT': (0, 9, 5, 3414)}
