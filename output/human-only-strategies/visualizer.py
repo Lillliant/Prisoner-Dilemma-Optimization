@@ -174,6 +174,7 @@ def visualize_win_by_memory(data: dict, name: str):
     x = len(list(data.values())[0])
     x_axis = np.arange(x)
     width = 0.2
+    plt.figure(layout="constrained")
     for i, (memory_depth, results) in enumerate(data.items()):
         #plt.subplots(layout="constrained")
         strategy = list(results.keys())
@@ -184,13 +185,12 @@ def visualize_win_by_memory(data: dict, name: str):
     # Add some text for labels, title and custom x-axis tick labels, etc.
     plt.legend()
     plt.xlabel("Strategy")
-    plt.xticks(x_axis + width, strategy)
+    plt.xticks(x_axis + width, strategy, rotation=-90)
     plt.ylabel("Wins")
     plt.title("Wins by Strategy")
-    plt.show()
-    #plt.tight_layout()
-    #plt.savefig(f'{name}-wincount.png')
-    #plt.close()
+    #plt.show()
+    plt.savefig(f'{name}-wincount.png')
+    plt.close()
 
 def visualize_score_by_memory(data: dict , name:str):
         # x: strategies
@@ -215,5 +215,5 @@ def visualize_score_by_memory(data: dict , name:str):
         plt.close()
 
 if __name__ == "__main__":
-    #visualize_win_by_memory(data_r1000, name="R1000")
-    visualize_score_by_memory(data_r10, name="R10")
+    visualize_win_by_memory(data_r1000, name="R1000")
+    #visualize_score_by_memory(data_r10, name="R10")
