@@ -1,3 +1,6 @@
+from matplotlib import pyplot as plt
+import numpy as np
+
 init_strategy = [1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0]
 
 # optimized strategy as obtained from data folder
@@ -51,7 +54,6 @@ data = {
 }
 
 def color_difference(strat_parent: list[int], strat_child: list[int]):
-    print("Parent: ", strat_parent)
     print("Child: [", end="")
     for i in range(len(strat_child)):
         if strat_child[i] != strat_parent[i]:
@@ -60,8 +62,47 @@ def color_difference(strat_parent: list[int], strat_child: list[int]):
             print(strat_child[i], end=", ")
     print("]")
 
+def graph_win_count(data: dict):
+    x = len(list(data.values())[0])
+    x_axis = np.arange(x)
+    width = 0.2
+    plt.figure(layout="constrained")
+    for i, (iteration, results) in enumerate(data.items()):
+        strategy = list(results.keys())
+        wins = [scores[0] for scores in results.values()]
+        offset = width * i
+        plt.bar(x_axis + offset, wins, width, label=f"Iteration {iteration}")
+    plt.legend()
+    plt.xlabel("Strategy")
+    plt.xticks(x_axis + width, strategy, rotation=-90)
+    plt.ylabel("Wins")
+    plt.title("Wins by Strategy")
+    #plt.show()
+    plt.savefig(f'hc-no-tft-win-count.png')
+    plt.close()
+
+def graph_score_count(data:dict):
+    x = len(list(data.values())[0])
+    for iteration, results in data.items():
+        plt.subplots(layout="constrained")
+        strategy = list(results.keys())
+        cumulative_score = [scores[3] for scores in results.values()]
+        score_deviation = [s - max(cumulative_score) for s in cumulative_score]
+        plt.bar(strategy, score_deviation, label=f"Iteration {iteration}")
+        plt.legend()
+        plt.xlabel("Strategy")
+        plt.xticks(strategy, rotation=-90)
+        plt.ylabel("Deviation from Max Score")
+        plt.title("Deviation from Max Score by Strategy")
+        #plt.show()
+        plt.savefig(f'hc-no-tft-score-deviation-iter{iteration}.png')
+        plt.close()
+
 if __name__ == '__main__':
+    print("Parent: ", init_strategy)
     color_difference(init_strategy, iter_100)
     color_difference(init_strategy, iter_500)
     color_difference(init_strategy, iter_1000)
+    graph_win_count(data)
+    graph_score_count(data)
 
