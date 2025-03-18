@@ -175,6 +175,7 @@ def visualize_win_by_memory(data: dict, name: str):
     x_axis = np.arange(x)
     width = 0.2
     for i, (memory_depth, results) in enumerate(data.items()):
+        #plt.subplots(layout="constrained")
         strategy = list(results.keys())
         wins = [scores[0] for scores in results.values()]
         offset = width * i
@@ -198,6 +199,7 @@ def visualize_score_by_memory(data: dict , name:str):
     x_axis = np.arange(x)
     width = 0.2
     for i, (memory_depth, results) in enumerate(data.items()):
+        plt.subplots(layout="constrained")
         strategy = list(results.keys())
         cumulative_score = [scores[3] for scores in results.values()]
         score_ratio = [score - max(cumulative_score) for score in cumulative_score]
@@ -213,5 +215,5 @@ def visualize_score_by_memory(data: dict , name:str):
         plt.close()
 
 if __name__ == "__main__":
-    visualize_win_by_memory(data_r1000, name="R1000")
-    #visualize_score_by_memory(data_r1000, name="R1000")
+    #visualize_win_by_memory(data_r1000, name="R1000")
+    visualize_score_by_memory(data_r10, name="R10")
