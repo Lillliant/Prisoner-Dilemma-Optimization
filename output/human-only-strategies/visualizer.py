@@ -193,23 +193,27 @@ def visualize_win_by_memory(data: dict, name: str):
     plt.close()
 
 def visualize_score_by_memory(data: dict , name:str):
-        # x: strategies
+    # x: strategies
     # y_i: wins for memory depth i, ordered by strategy
-    for memory_depth, results in data.items():
-        plt.subplots(layout="constrained")
+    x = len(list(data.values())[0])
+    x_axis = np.arange(x)
+    width = 0.2
+    plt.figure(layout="constrained")
+    for i, (memory_depth, results) in enumerate(data.items()):
         strategy = list(results.keys())
         cumulative_score = [scores[3] for scores in results.values()]
+        offset = width * i
         score_ratio = [score - max(cumulative_score) for score in cumulative_score]
-        plt.bar(strategy, score_ratio, label=f"Memory Depth {memory_depth}")
-        plt.legend()
-        plt.xlabel("Strategy")
-        plt.xticks(strategy, rotation=-90)
-        plt.ylabel("Deviation from Max Score")
-        plt.title("Deviation from Max Score by Strategy")
-        #plt.show()
-        plt.savefig(f'{name}-{memory_depth}-score-deviation.png')
-        plt.close()
+        plt.bar(x_axis + offset, score_ratio, width, label=f"Memory Depth {memory_depth}")
+    plt.legend()
+    plt.xlabel("Strategy")
+    plt.xticks(x_axis + width, strategy, rotation=-90)
+    plt.ylabel("Deviation from Max Score")
+    plt.title("Deviation from Max Score by Strategy")
+    #plt.show()
+    plt.savefig(f'{name}-score-deviation.png')
+    plt.close()
 
 if __name__ == "__main__":
-    visualize_win_by_memory(data_r1000, name="R1000")
-    #visualize_score_by_memory(data_r10, name="R10")
+    #visualize_win_by_memory(data_r1000, name="R1000")
+    visualize_score_by_memory(data_r1000, name="R1000")
