@@ -9,5 +9,10 @@ The structure of the framework is as follows:
 └── src
     ├── optimization: This folder contains the optimization methods (Hill Climbing, Tabu Search, Genetic Algorithm)
     ├── tournament: This folder contains the simulator, Player class, and human-designed strategies
+    ├── config.py
     └── main.py
 ```
+# Optimization Methods
+This repository contains 3 optimization methods: Hill Climbing, Tabu Search, and Genetic Algorithm. Each method allows for an initial strategy (or population strategy). If no opponent strategy is passed, the method defaults to Neighbour Optimization.
+
+The optimization parameters can be adjusted within `config.py` in `src` folder.
